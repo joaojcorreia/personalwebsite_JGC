@@ -1,19 +1,31 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "personalwebsite_JGC"
+  page-navigation: true
+  title: "Hello I'm João"
+
+  page-footer:
+    left: "&copy; Copyright 2023, João Granja-Correia"
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+
+      - href: projects/index.qmd
+        text: Projects
+
+      - href: about.qmd
+        text: About
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
-    toc: true
+    theme: [simplex, styles.scss]
 
-editor: visual
+
+
+
 

@@ -1,11 +1,28 @@
 ---
-title: "personalwebsite_JGC"
+title: "João Granja-Correia"
+image: images/Joao.Granja-Correia.jpg
+about:
+  id: hero-heading
+  template: trestles
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: joaojcorreia
+      href: https://www.linkedin.com/in/joaojcorreia
+    - icon: github
+      text: joaojcorreia
+      href: https://github.com/joaojcorreia
+    - icon: mastodon
+      text: '@joaocorreia@mastodon.world'
+      href: https://mastodon.world/@joaocorreia
 ---
 
-This is a Quarto website.
+::: {#hero-heading}
+Hello and welcome to my website!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+My name is João Granja-Correia and I am a **PhD candidate** at the [Universidad de Cantabria](web.unican.es), where I am researching **project management** and **agile methodologies**. Specifically, I am interested in the leadership skills that enable agile project managers to contribute to project success, and how agile itself can be defined through the lens of **paradox theory**.
 
-```{r}
-1 + 1
-```
+In addition to my research, I have been lecturing on project management at [Nova SBE](www.novasbe.unl.pt) since 2012.
+
+I am also passionate about **R and R development**, and I specialize in developing leadership skills assessment tools and personalized reporting using R and RMarkdown.
+:::
