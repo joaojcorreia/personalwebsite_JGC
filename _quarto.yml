@@ -28,8 +28,6 @@ format:
   html:
     theme: [simplex, styles.scss]
 
-execute:
-  freeze: auto
 
 
 
