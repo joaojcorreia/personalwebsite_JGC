@@ -1,0 +1,32 @@
+---
+title: "Writing your PhD thesis in Humanities - Activity 1"
+author: "João Granja-Correia"
+description: | 
+  Text wrtiten for activity 1 of the "Writing your PhD thesis in Humanities course"
+date: "2023-05-13"
+categories: [CourseWork]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    code-fold: false
+    code-tools: false
+---
+
+**Disclaimer:** *This blog post is created as an exercise for the "Writing your PhD thesis in humanities" course at Unican, with the aim of providing practical insights and tips on the thesis writing process in the humanities field. The information presented here is based on personal experiences and research, and should not be construed as professional advice or guidance*.
+
+As I write my first blog post I try to reflect on the questions that it should address for the present course task. Firstly, although I am attending a course on writing a PhD thesis, I do not intend to write a thesis per se, my goal is to develop an article based PhD. Hence my focus is more on acquiring an adequate writing style for publishing papers. 
+
+Additionally, I have a background in engineering and am pursuing the PhD in Management, which doesn’t fit exactly the definition of humanities. My different background, path and experiences will surely translate themselves in a different writing style. However, I chose none-the-less to enroll in this course because I believe that the points covered in here and the skills that I will be forced to develop, will none still prove useful in my specific context.
+
+My work focus in the field of project management, where I wish to address the differences between agile and the traditional project management approaches, the later nowadays frequently referred to as predictive. My goal is to look at these differences through the lens of paradox theory. Intuitively I feel that their fundamental and defining difference lies in the way both approaches address the tension between the need to plan and the need to accept change and uncertainty. 
+
+My area of interest implies that a significant chunk of my audience will have a similar background to my own, i.e. engineering with some management training, or management with an relevant understanding of engineering. I would like to believe that this translates itself in an audience that has a practical and pragmatic approach to the text, in search of meaning and not elaborate metaphors and writing styles. This doesn’t imply that it should be a practical, applicational and descriptive text, quite the opposite it needs to have both theory and to present a definite contribution to theory.
+
+Hence, I will strive to have a conversational yet precise style of writing. Perhaps using a semi-conversational form of academic English. Focusing on using short and clear phrases.  
+
+However, I am not a native speaker, hence occasionally I feel I lack the mastery over English as a written language I would like to have. As a student I took the regular English classes at school, from the 5th grade to the 11th grade. However, being native of a country where movie and tv predominantly use under-titles I have had plenty of exposure to English as a spoken language. Additionally, my own idiosyncratic nerd-centric reading interests have ensured that at a relatively early age, I have had to abandon my native language books for predominantly English language editions. Having said that, and although I feel I have an adequate lever of English for the task-at-hand, I sometimes struggle with the language. Particularly grammar and the phonetic irregularities of the language.
+
+I would like to evolve my writing style to a style of prose like that of Bent Flyvbjerg. A Danish scholar that, not only has a significant number of publications in the field of project management, particular in megaprojects. But also, and perhaps with a greater significance, on social sciences as an area of study, and the methodological and philosophical ways of approaching them. 
+
+Finally, and addressing the final point of this first task, when possible, I like to write first thing in the morning. And as frequently as feasible, considering my workload and other tasks that might take precedence. I tend to write and then go back and review. I am not a perfectionist, generally I strive for fit-for-purpose. And it is my understanding, supported by the opinions of many scholars that have gone through the same process, that this is a skill that can only be meaningfully developed with repetition. It is an activity that I genuinely enjoy, and that with time I hope to master.  

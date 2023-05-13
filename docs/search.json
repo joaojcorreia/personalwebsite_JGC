@@ -1,58 +1,30 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "João Granja-Correia",
-    "section": "",
-    "text": "joaojcorreia\n  \n  \n    \n     joaojcorreia\n  \n  \n    \n     @joaocorreia@mastodon.world\n  \n\n  \n  \nHello and welcome to my website!\nMy name is João Granja-Correia and I am a PhD candidate at the Universidad de Cantabria, where I am researching project management and agile methodologies. Specifically, I am interested in the leadership skills that enable agile project managers to contribute to project success, and how agile itself can be defined through the lens of paradox theory.\nIn addition to my research, I have been lecturing on project management at Nova SBE since 2012.\nI am also passionate about R and R development, and I specialize in developing leadership skills assessment tools and personalized reporting using R and RMarkdown."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "João Granja-Correia",
     "section": "",
-    "text": "jgc672@alumnos.unican.es\n  \n  \n    \n     @joaocorreia@mastodon.world\n  \n  \n    \n     joaojcorreia\n  \n  \n    \n     0009-0003-8982-278X\n  \n\n\n\nI am a PhD candidate at the Universidad de Cantabria, where I am researching project management and agile methodologies. Specifically, I am interested in the leadership skills that enable agile project managers to contribute to project success, and how agile can be defined through the lens of paradox theory.\n{{&lt; ai google-scholar &gt;}}\nIn addition to my research, I have been lecturing on project management in executive education programs at Nova SBE since 2012, where I am alse involved in the challenging school’s digital transformation process.\nI am passionate about R and R development, and I specialize in developing leadership skills assessment tools and personalized reporting using R and RMarkdown.\nMy interests are:\n\nProject management, both predictive and agile methodologies\nSurvey based quantitative empirical research\nReproducible automatic data-analysis and reporting with R\n\nOutside of work, my time is mostly occupied by my three wonderful children, who keep me on my toes and bring joy to my life. I love spending time outdoors, and during the summer you can often find me at the beach, enjoying the sun, sea, and a good book. I am fluent in English, Portuguese, Italian and Spanish, and I’ve been trying to learn Hebrew for the past few years, although progress has been slow."
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "Author",
-    "section": "Education",
-    "text": "Education\nUniversity of Oslo | Oslo, Norway\nPhD in Biostatistics | Oct 2022\nUniversity of Oslo | Oslo, Norway\nMSc in Statistics | June 2018"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "Author",
-    "section": "Experience",
-    "text": "Experience\nI have developed X R packages, published Y papers."
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "A description of Project"
-  },
-  {
-    "objectID": "projects/index.html#project-i",
-    "href": "projects/index.html#project-i",
-    "title": "Projects",
-    "section": "",
-    "text": "A description of Project"
-  },
-  {
-    "objectID": "projects/index.html#project-ii",
-    "href": "projects/index.html#project-ii",
-    "title": "Projects",
-    "section": "Project II",
-    "text": "Project II\nA description of Project"
+    "text": "jgc672@alumnos.unican.es\n  \n  \n    \n     @joaocorreia@mastodon.world\n  \n  \n    \n     joaojcorreia\n  \n\n\n\nI am a PhD candidate at the Universidad de Cantabria, where I am researching project management and agile methodologies. Specifically, I am interested in the leadership skills that enable agile project managers to contribute to project success, and how agile can be defined through the lens of paradox theory.\nIn addition to my research, I have been lecturing on project management in executive education programs at Nova SBE since 2012, where I am alse involved in the challenging school’s digital transformation process.\nI am passionate about R and R development, and I specialize in developing leadership skills assessment tools and personalized reporting using R and RMarkdown.\nMy interests are:\n\nProject management, both predictive and agile methodologies\nSurvey based quantitative empirical research\nReproducible automatic data-analysis and reporting with R\n\nOutside of work, my time is mostly occupied by my three wonderful children, who keep me on my toes and bring joy to my life. I love spending time outdoors, and during the summer you can often find me at the beach, enjoying the sun, sea, and a good book. I am fluent in English, Portuguese, Italian and Spanish, and I’ve been trying to learn Hebrew for the past few years, although progress has been slow."
   },
   {
     "objectID": "blog/blog.html",
     "href": "blog/blog.html",
     "title": "Blog and notes",
     "section": "",
-    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMostly notes for my own use\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nThis section is constantly being updated.\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Blog\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nWriting your PhD thesis in Humanities - Activity 1\n\n\nMay 13, 2023\n\n\n\n\n\n\nNo matching items\n\n\n\n\nTechnical notes\nMostly notes for my own use\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReading notes\nNotes about stuf I am reading\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/blog_20230513_Activity1/index.html",
+    "href": "blog/blog_20230513_Activity1/index.html",
+    "title": "Writing your PhD thesis in Humanities - Activity 1",
+    "section": "",
+    "text": "Disclaimer: This blog post is created as an exercise for the “Writing your PhD thesis in humanities” course at Unican, with the aim of providing practical insights and tips on the thesis writing process in the humanities field. The information presented here is based on personal experiences and research, and should not be construed as professional advice or guidance.\nAs I write my first blog post I try to reflect on the questions that it should address for the present course task. Firstly, although I am attending a course on writing a PhD thesis, I do not intend to write a thesis per se, my goal is to develop an article based PhD. Hence my focus is more on acquiring an adequate writing style for publishing papers.\nAdditionally, I have a background in engineering and am pursuing the PhD in Management, which doesn’t fit exactly the definition of humanities. My different background, path and experiences will surely translate themselves in a different writing style. However, I chose none-the-less to enroll in this course because I believe that the points covered in here and the skills that I will be forced to develop, will none still prove useful in my specific context.\nMy work focus in the field of project management, where I wish to address the differences between agile and the traditional project management approaches, the later nowadays frequently referred to as predictive. My goal is to look at these differences through the lens of paradox theory. Intuitively I feel that their fundamental and defining difference lies in the way both approaches address the tension between the need to plan and the need to accept change and uncertainty.\nMy area of interest implies that a significant chunk of my audience will have a similar background to my own, i.e. engineering with some management training, or management with an relevant understanding of engineering. I would like to believe that this translates itself in an audience that has a practical and pragmatic approach to the text, in search of meaning and not elaborate metaphors and writing styles. This doesn’t imply that it should be a practical, applicational and descriptive text, quite the opposite it needs to have both theory and to present a definite contribution to theory.\nHence, I will strive to have a conversational yet precise style of writing. Perhaps using a semi-conversational form of academic English. Focusing on using short and clear phrases.\nHowever, I am not a native speaker, hence occasionally I feel I lack the mastery over English as a written language I would like to have. As a student I took the regular English classes at school, from the 5th grade to the 11th grade. However, being native of a country where movie and tv predominantly use under-titles I have had plenty of exposure to English as a spoken language. Additionally, my own idiosyncratic nerd-centric reading interests have ensured that at a relatively early age, I have had to abandon my native language books for predominantly English language editions. Having said that, and although I feel I have an adequate lever of English for the task-at-hand, I sometimes struggle with the language. Particularly grammar and the phonetic irregularities of the language.\nI would like to evolve my writing style to a style of prose like that of Bent Flyvbjerg. A Danish scholar that, not only has a significant number of publications in the field of project management, particular in megaprojects. But also, and perhaps with a greater significance, on social sciences as an area of study, and the methodological and philosophical ways of approaching them.\nFinally, and addressing the final point of this first task, when possible, I like to write first thing in the morning. And as frequently as feasible, considering my workload and other tasks that might take precedence. I tend to write and then go back and review. I am not a perfectionist, generally I strive for fit-for-purpose. And it is my understanding, supported by the opinions of many scholars that have gone through the same process, that this is a skill that can only be meaningfully developed with repetition. It is an activity that I genuinely enjoy, and that with time I hope to master."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "João Granja-Correia",
+    "section": "",
+    "text": "joaojcorreia\n  \n  \n    \n     joaojcorreia\n  \n  \n    \n     @joaocorreia@mastodon.world\n  \n\n  \n  \nHello and welcome to my website!\nMy name is João Granja-Correia and I am a PhD candidate at the Universidad de Cantabria, where I am researching project management and agile methodologies. Specifically, I am interested in the leadership skills that enable agile project managers to contribute to project success, and how agile itself can be defined through the lens of paradox theory.\nIn addition to my research, I have been lecturing on project management at Nova SBE since 2012.\nI am also passionate about R and R development, and I specialize in developing leadership skills assessment tools and personalized reporting using R and RMarkdown."
   }
 ]

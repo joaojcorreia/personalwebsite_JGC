@@ -16,9 +16,9 @@ about:
     - icon: linkedin
       text: joaojcorreia
       href: https://www.linkedin.com/in/joaojcorreia
-    - icon: ai open-access    
-      text: 0009-0003-8982-278X
-      href: https://orcid.org/0009-0003-8982-278X
+    # - icon: ai ai-orcid
+    #   text: 0009-0003-8982-278X
+    #   href: https://orcid.org/0009-0003-8982-278X
 ---
 
 ::: {#hero-heading}
