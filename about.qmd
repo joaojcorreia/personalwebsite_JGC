@@ -16,7 +16,7 @@ about:
     - icon: linkedin
       text: joaojcorreia
       href: https://www.linkedin.com/in/joaojcorreia
-    - icon: fa-brands fa-orcid
+    - icon: ai open-access    
       text: 0009-0003-8982-278X
       href: https://orcid.org/0009-0003-8982-278X
 ---
