@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A place to store learnings and thoughts on my research, readings and R development">
+<meta name="author" content="João Granja-Correia">
+<meta name="dcterms.date" content="2023-05-15">
+<meta name="description" content="Text wrtiten for activity 2 of the “Writing your PhD thesis in Humanities course”">
 
-<title>Hello I’m João - Blog and notes</title>
+<title>Hello I’m João - Writing your PhD thesis in Humanities - Activity 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,94 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-readnotes .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-readnotes'] = new List('listing-readnotes', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-technotes .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: [],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-technotes'] = new List('listing-technotes', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -159,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Hello I’m João</span>
     </a>
   </div>
@@ -170,19 +83,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.html" rel="" target="">
+    <a class="nav-link" href="../../projects/index.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/blog.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../blog/blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -198,25 +111,40 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="CourseWork">CourseWork <span class="quarto-category-count">(2)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog and notes</h1>
-</div>
+<h1 class="title">Writing your PhD thesis in Humanities - Activity 2</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">CourseWork</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    <p>A place to store learnings and thoughts on my research, readings and R development</p>
+    <p>Text wrtiten for activity 2 of the “Writing your PhD thesis in Humanities course”</p>
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>João Granja-Correia </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 15, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -224,99 +152,42 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="blog" class="level3">
-<h3 class="anchored" data-anchor-id="blog">Blog</h3>
-<div id="listing-blog" class="quarto-listing quarto-listing-container-table">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="CourseWork" data-listing-date-sort="1684105200000" data-listing-file-modified-sort="1684221807928" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Writing your PhD thesis in Humanities - Activity 2" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230515_Activity2/index.html" class="title listing-title">Writing your PhD thesis in Humanities - Activity 2</a>
-</td>
-<td>
-<span class="listing-date">May 15, 2023</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="CourseWork" data-listing-date-sort="1683932400000" data-listing-file-modified-sort="1684004255056" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Writing your PhD thesis in Humanities - Activity 1" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230513_Activity1/index.html" class="title listing-title">Writing your PhD thesis in Humanities - Activity 1</a>
-</td>
-<td>
-<span class="listing-date">May 13, 2023</span>
-</td>
-</tr>
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
+<p><strong>Disclaimer:</strong> <em>This blog post is created as an exercise for the “Writing your PhD thesis in humanities” course at Unican, with the aim of providing practical insights and tips on the thesis writing process in the humanities field. The information presented here is based on personal experiences and research, and should not be construed as professional advice or guidance</em>.</p>
+<p><strong>Caveat:</strong> <em>As I’ve mentioned on my previous post, I don’t intend to write a PhD thesis <u>per se</u>, but my objective is to write one based on articles. So, for the sake of this exercise, I will go over one of the articles that I am planning to write.</em></p>
+<p><strong>Title:</strong> Agile, you keep using that word. I do not think it means what you think it means.</p>
+<p>This title is based on one of the most popular internet memes about agile. The meme captures the moment where, in the 1987 movie “<a href="https://www.imdb.com/title/tt0093779/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_the%2520prin">The Princess Bride</a>”, Iñigo Montoya (played by Mandy Patinkin) says to Vizzini (played by Wallace Shawn) “Inconceivable, you keep using that word. I do not think it means what you think it means”. Thus making the final pun to the recurrent joke of Vizzini’s abuse of the expression “Inconceivable”.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/agile meme.png" class="img-fluid figure-img" alt="agile meme" width="250"></p>
+</figure>
 </div>
-</div>
-</section>
-<section id="technical-notes" class="level3">
-<h3 class="anchored" data-anchor-id="technical-notes">Technical notes</h3>
-<p>Mostly notes for my own use</p>
-<div id="listing-technotes" class="quarto-listing quarto-listing-container-table">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="reading-notes" class="level3">
-<h3 class="anchored" data-anchor-id="reading-notes">Reading notes</h3>
-<p>Notes about stuf I am reading</p>
-<div id="listing-readnotes" class="quarto-listing quarto-listing-container-table">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<p>To some extent the managers have out-mastered Vizzini in their own abuse <em>ad nauseam</em> of the word “Agile”. In the last couple of years agile has become something of a buzzword in the corporate world. Being seen as a panacea that will resolve all corporate ailments, sometimes far beyond the management of projects.</p>
+<p>Practitioners frequently complain that many of the procedures implemented under the guise of “agile”, have become opportunities for the institutionalization of micro-management and the complete eradication of any mid-term planning. Creating toxic work environments, where bad-practices are kept on track with the help of pseudo-scientific metrics like burn-charts. This usage of agile as wondered far beyond the principles set in the <a href="https://agilemanifesto.org/">Agile Manifesto</a>.</p>
+<p>In this paper I intend to conduct a grounded theory study of how agile can be defined, and what makes it different from the predictive approach. In order to do this I will analyze their practices through the paradox theory lens. To do this, I must first develop a good understanding of paradox theory, and how it defines and classifies the several paradox management strategies. And then, in a systematic way, classify agile and predictive practices in this framework. At the end I hope to identify a pattern that allows for the definition of agile.</p>
+<p>So, addressing point number two of the current task, I believe at the end the table of contents of the paper will look something like this:</p>
+<ol type="1">
+<li><p>Introduction</p></li>
+<li><p>Agile defined in contraposition to predictive</p></li>
+<li><p>Paradox theory as a meaningful lens</p></li>
+<li><p>Research question</p></li>
+<li><p>Methodology</p></li>
+<li><p>Results</p></li>
+<li><p>Discussion</p></li>
+<li><p>Conclusions</p></li>
+<li><p>Implications for practice</p></li>
+<li><p>Limitations</p></li>
+</ol>
+<p>Answering point number three, although I intend to apply some agility in managing the effort and timings (pun intended), I believe that it will probably look something like this. However, please take note that some of these tasks will be simultaneous:</p>
+<ol type="a">
+<li><p>Ideation and research – 3 months</p></li>
+<li><p>Writing points 1 to 4 – 6 months</p></li>
+<li><p>Grounded theory approach – 4 months</p></li>
+<li><p>Writing points 5 and 6 – 2 months</p></li>
+<li><p>Writing points 7 and 10 – 3 months</p></li>
+</ol>
+<p>Please take note that I am inexperienced in these tasks, and hence, my effort estimation carries little weight.</p>
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

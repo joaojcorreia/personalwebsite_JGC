@@ -1,0 +1,66 @@
+---
+title: "Writing your PhD thesis in Humanities - Activity 2"
+author: "João Granja-Correia"
+description: | 
+  Text wrtiten for activity 2 of the "Writing your PhD thesis in Humanities course"
+date: "2023-05-15"
+categories: [CourseWork]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    code-fold: false
+    code-tools: false
+---
+
+**Disclaimer:** *This blog post is created as an exercise for the "Writing your PhD thesis in humanities" course at Unican, with the aim of providing practical insights and tips on the thesis writing process in the humanities field. The information presented here is based on personal experiences and research, and should not be construed as professional advice or guidance*.
+
+**Caveat:** *As I've mentioned on my previous post, I don't intend to write a PhD thesis [per se]{.underline}, but my objective is to write one based on articles. So, for the sake of this exercise, I will go over one of the articles that I am planning to write.*
+
+**Title:** Agile, you keep using that word. I do not think it means what you think it means.
+
+This title is based on one of the most popular internet memes about agile. The meme captures the moment where, in the 1987 movie "[The Princess Bride](https://www.imdb.com/title/tt0093779/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_the%2520prin)", Iñigo Montoya (played by Mandy Patinkin) says to Vizzini (played by Wallace Shawn) "Inconceivable, you keep using that word. I do not think it means what you think it means". Thus making the final pun to the recurrent joke of Vizzini's abuse of the expression "Inconceivable".
+
+![](images/agile%20meme.png){fig-alt="agile meme" fig-align="center" width="250"}
+
+To some extent the managers have out-mastered Vizzini in their own abuse *ad nauseam* of the word "Agile". In the last couple of years agile has become something of a buzzword in the corporate world. Being seen as a panacea that will resolve all corporate ailments, sometimes far beyond the management of projects.
+
+Practitioners frequently complain that many of the procedures implemented under the guise of "agile", have become opportunities for the institutionalization of micro-management and the complete eradication of any mid-term planning. Creating toxic work environments, where bad-practices are kept on track with the help of pseudo-scientific metrics like burn-charts. This usage of agile as wondered far beyond the principles set in the [Agile Manifesto](https://agilemanifesto.org/).
+
+In this paper I intend to conduct a grounded theory study of how agile can be defined, and what makes it different from the predictive approach. In order to do this I will analyze their practices through the paradox theory lens. To do this, I must first develop a good understanding of paradox theory, and how it defines and classifies the several paradox management strategies. And then, in a systematic way, classify agile and predictive practices in this framework. At the end I hope to identify a pattern that allows for the definition of agile.
+
+So, addressing point number two of the current task, I believe at the end the table of contents of the paper will look something like this:
+
+1.  Introduction
+
+2.  Agile defined in contraposition to predictive
+
+3.  Paradox theory as a meaningful lens
+
+4.  Research question
+
+5.  Methodology
+
+6.  Results
+
+7.  Discussion
+
+8.  Conclusions
+
+9.  Implications for practice
+
+10. Limitations
+
+Answering point number three, although I intend to apply some agility in managing the effort and timings (pun intended), I believe that it will probably look something like this. However, please take note that some of these tasks will be simultaneous:
+
+a)  Ideation and research -- 3 months
+
+b)  Writing points 1 to 4 -- 6 months
+
+c)  Grounded theory approach -- 4 months
+
+d)  Writing points 5 and 6 -- 2 months
+
+e)  Writing points 7 and 10 -- 3 months
+
+Please take note that I am inexperienced in these tasks, and hence, my effort estimation carries little weight.
