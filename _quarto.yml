@@ -5,6 +5,8 @@ project:
 website:
   page-navigation: true
   title: "Hello I'm João"
+  site-url: https://joao.granja-correia.eu
+  repo-url: https://github.com/joaojcorreia/joaojcorreia.github.io
 
   page-footer:
     left: "&copy; Copyright 2023, João Granja-Correia"
@@ -27,6 +29,8 @@ website:
 format:
   html:
     theme: [simplex, styles.scss]
+    mainfont: "Atkinson Hyperlegible"
+
 
 
 
