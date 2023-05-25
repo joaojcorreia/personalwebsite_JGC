@@ -1,0 +1,30 @@
+---
+title: "Collecting project management memes"
+author: "João Granja-Correia"
+description: | 
+  What can be said about project managers pains from popular PM memes
+date: "2023-05-25"
+categories: [PM, meme]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    code-fold: false
+    code-tools: false
+---
+
+As a project management researcher and a PhD candidate, I am always looking for new ways to understand the challenges and frustrations that project managers face in their daily work. One of the sources that I find fascinating and insightful is the internet memes that project managers create and share online. Memes are humorous images or videos that often reflect the cultural and social aspects of a group or a situation. They can also reveal the emotions and attitudes of the people who create or consume them.
+
+In this blog post, I want to share some of the project management memes that I have collected over time and analyze what they tell us about the common problems and pain points that project managers encounter. Some of the recurring themes that I have noticed are: lack of prioritization, unrealistic expectations from management, insufficient resources and sprint plans gone wrong. Here are some examples of these memes:
+
+![Lack of prioritization](/blog/blog_20230525_PM_memes/images/Mastondon%20-%20296829ab2915377c.jpg)
+
+![Unrealistic expectations from management](/blog/blog_20230525_PM_memes/images/Mastodon%20-%208a241dc5683fbfc4.jpg)
+
+![Insufficient resources](/blog/blog_20230525_PM_memes/images/Mastodon%20-%20e55c690c3d07ca4d.jpg)
+
+![Sprint planning gone wrong](/blog/blog_20230525_PM_memes/images/Mastodon%20-%205a378a0d54572b9a.jpg)
+
+These memes show how project managers use humour to cope with the stress and frustration that they experience in their work. My goal is to eventually build a comprehensive database of project management memes and use them as a data source for my research. I hope that by doing so, I can contribute to the advancement of project management knowledge and practice.
+
+Do you have any funny PM memes? [email them to me](mailto:jgc672@alumnos.unican.es).

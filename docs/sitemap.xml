@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://joao.granja-correia.eu/index.html</loc>
-    <lastmod>2023-05-20T17:27:34.617Z</lastmod>
+    <lastmod>2023-05-20T17:31:34.786Z</lastmod>
   </url>
   <url>
     <loc>https://joao.granja-correia.eu/projects/index.html</loc>
@@ -14,10 +14,14 @@
   </url>
   <url>
     <loc>https://joao.granja-correia.eu/blog/blog.html</loc>
-    <lastmod>2023-05-20T17:25:32.697Z</lastmod>
+    <lastmod>2023-05-25T10:50:26.451Z</lastmod>
   </url>
   <url>
     <loc>https://joao.granja-correia.eu/blog/blog_20230515_Activity2/index.html</loc>
     <lastmod>2023-05-20T17:26:35.442Z</lastmod>
+  </url>
+  <url>
+    <loc>https://joao.granja-correia.eu/blog/blog_20230525_PM_memes/index.html</loc>
+    <lastmod>2023-05-25T10:50:25.880Z</lastmod>
   </url>
 </urlset>
