@@ -1,40 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-<<<<<<< HEAD
     <loc>https://joao.granja-correia.eu/index.html</loc>
-    <lastmod>2023-05-20T17:31:34.786Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joao.granja-correia.eu/projects/index.html</loc>
-    <lastmod>2023-05-20T17:25:08.052Z</lastmod>
+    <lastmod>2023-05-25T12:33:26.292Z</lastmod>
   </url>
   <url>
     <loc>https://joao.granja-correia.eu/about.html</loc>
-    <lastmod>2023-05-20T16:58:28.661Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joao.granja-correia.eu/blog/blog.html</loc>
-    <lastmod>2023-05-25T10:50:26.451Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joao.granja-correia.eu/blog/blog_20230515_Activity2/index.html</loc>
-    <lastmod>2023-05-20T17:26:35.442Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joao.granja-correia.eu/blog/blog_20230525_PM_memes/index.html</loc>
-    <lastmod>2023-05-25T10:50:25.880Z</lastmod>
-=======
-    <loc>https://joao.granja-correia.eu/about.html</loc>
-    <lastmod>2023-05-20T17:39:44.516Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joao.granja-correia.eu/index.html</loc>
-    <lastmod>2023-05-20T17:39:49.780Z</lastmod>
-  </url>
-  <url>
-    <loc>https://joao.granja-correia.eu/projects/index.html</loc>
-    <lastmod>2023-05-20T17:38:16.792Z</lastmod>
->>>>>>> 0da91fddbd02e84f8c451287a3642e7794fe50d3
+    <lastmod>2023-05-25T13:32:37.960Z</lastmod>
   </url>
 </urlset>
