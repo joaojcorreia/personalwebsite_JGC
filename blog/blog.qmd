@@ -16,32 +16,6 @@ listing:
     filter-ui: false
     categories: true
 
-  - id: readnotes
-    max-description-length: 500
-    image-height: 150px
-    fields: [title, date]
-    contents: 
-      - "readnotes_*/index.qmd"
-    type: table
-    grid-item-border: false
-    sort-ui: false
-    sort: "date desc"
-    filter-ui: false
-    categories: true
-
-  - id: technotes
-    max-description-length: 500
-    image-height: 150px
-    fields: [title, date]
-    contents: 
-      - "technotes_*/index.qmd"
-    type: table
-    grid-item-border: false
-    sort-ui: false
-    sort: "date desc"
-    filter-ui: false
-    categories: true
-
 ---
 
 ### Blog
@@ -49,21 +23,4 @@ listing:
 ::: {#blog}
 :::
 
-
-### Technical notes
-
-Mostly notes for my own use
-
-::: {#technotes}
-:::
-
-
-
-
-### Reading notes
-
-Notes about stuf I am reading
-
-::: {#readnotes}
-:::
 

@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A place to store learnings and thoughts on my research, readings and R development">
+<meta name="author" content="João Granja-Correia">
+<meta name="dcterms.date" content="2023-06-05">
+<meta name="description" content="What can be said about project managers pains from popular PM memes">
 
-<title>Hello I’m João - Blog and notes</title>
+<title>Hello I’m João - Tuber - connecting R to Youtube API</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,27 +23,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,38 +95,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -103,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Hello I’m João</span>
     </a>
   </div>
@@ -114,19 +117,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.html" rel="" target="">
+    <a class="nav-link" href="../../projects/index.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/blog.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../blog/blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -142,25 +145,43 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="CourseWork">CourseWork <span class="quarto-category-count">(2)</span></div><div class="category" data-category="PM">PM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Youtube">Youtube <span class="quarto-category-count">(1)</span></div><div class="category" data-category="meme">meme <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tuber">tuber <span class="quarto-category-count">(1)</span></div><div class="category" data-category="webscraping">webscraping <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog and notes</h1>
-</div>
+<h1 class="title">Tuber - connecting R to Youtube API</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">tuber</div>
+    <div class="quarto-category">Youtube</div>
+    <div class="quarto-category">webscraping</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    <p>A place to store learnings and thoughts on my research, readings and R development</p>
+    <p>What can be said about project managers pains from popular PM memes</p>
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>João Granja-Correia </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 5, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -168,65 +189,45 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="blog" class="level3">
-<h3 class="anchored" data-anchor-id="blog">Blog</h3>
-<div id="listing-blog" class="quarto-listing quarto-listing-container-table">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="R,tuber,Youtube,webscraping" data-listing-date-sort="1685919600000" data-listing-file-modified-sort="1685951102004" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Tuber - connecting R to Youtube API" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230603_Tuber/index.html" class="title listing-title">Tuber - connecting R to Youtube API</a>
-</td>
-<td>
-<span class="listing-date">Jun 5, 2023</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="PM,meme" data-listing-date-sort="1684969200000" data-listing-file-modified-sort="1685011816413" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Collecting project management memes" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230525_PM_memes/index.html" class="title listing-title">Collecting project management memes</a>
-</td>
-<td>
-<span class="listing-date">May 25, 2023</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="CourseWork" data-listing-date-sort="1684105200000" data-listing-file-modified-sort="1684222038044" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Writing your PhD thesis in Humanities - Activity 2" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230515_Activity2/index.html" class="title listing-title">Writing your PhD thesis in Humanities - Activity 2</a>
-</td>
-<td>
-<span class="listing-date">May 15, 2023</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="CourseWork" data-listing-date-sort="1683932400000" data-listing-file-modified-sort="1684222038041" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Writing your PhD thesis in Humanities - Activity 1" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230513_Activity1/index.html" class="title listing-title">Writing your PhD thesis in Humanities - Activity 1</a>
-</td>
-<td>
-<span class="listing-date">May 13, 2023</span>
-</td>
-</tr>
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
+<p>This is my first post related to R. Currently, I am working on a project focused on analyzing the comments from a series of videos featuring “<a href="https://www.youtube.com/watch?v=muNGhgNb5vM&amp;list=PLSWb1qzijMBsgFa1ToUCGH8dvcHdPoPiw">SúperBigote</a>” from the Venezuelan National TV’s, on a parritular <a href="https://www.youtube.com/@lubrio">YouTube channel</a> (at a later date I will delve on the nature and origin of this channel).</p>
+<p>Since these videos can be classified as political propaganda, my objective is to conduct sentiment analysis and explore the words and expressions associated with each video. To begin this analysis, my initial step would involve scraping all the comments and associated data, such as likes and comments on comments, for further examination.</p>
+<p>After some search online I found out the “<a href="https://cran.r-project.org/web/packages/tuber/index.html">tuber</a>” package. The R package “tuber” is a powerful tool for accessing and analyzing YouTube data directly within the R programming environment. Developed to simplify the process of extracting information from YouTube’s extensive collection of videos, channels, and playlists, tuber provides a comprehensive set of functions and features. With tuber, users can effortlessly retrieve video metadata, including title, description, view count, and upload date, as well as gather detailed statistics on channels and playlists. Additionally, tuber offers functionalities for searching videos, accessing comments, and even downloading video content. Its intuitive and user-friendly design makes it accessible to both beginners and experienced data scientists, making it an essential package for anyone interested in leveraging YouTube data for research, analysis, or content creation purposes.</p>
+<p>Due to the necessity of integrating with the YouTube API and the challenges I faced in finding up-to-date, comprehensive instructions online, I have decided to create this post. In doing so, I aim to provide a step-by-step guide that addresses the difficulties I encountered, ensuring a smoother integration process for others who may be facing similar obstacles.</p>
+<p>So the first step is installing the tuber package and loading the library:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">'tuber'</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tuber)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>Next you will need to go the <a href="https://console.cloud.google.com/">Google APIs dashboard</a> and create a new project. I already had my Google APIs account active from a previous project, so there might be an extra step here if you haven’t one already.</p>
+<p><img src="../..\blog/blog_20230603_Tuber/img/1.png" class="img-fluid" alt="Create a new project"></p>
+<p>Then, enable APIs and Services. -&gt; search for YouTube Data API v3 and enable that one.</p>
+<p><img src="../..\blog/blog_20230603_Tuber/img/2.png" class="img-fluid" alt="YouTube Data API v3"></p>
+<p>Next, create credentials. -&gt; You need to choose OAuth Client ID.</p>
+<p><img src="../..\blog/blog_20230603_Tuber/img/3.png" class="img-fluid" alt="Credentials"></p>
+<p>For that you will need to first setup the consent screen. Afterwards create the OAuth Client ID. Here you need to chose the Web application.</p>
+<p><img src="../..\blog/blog_20230603_Tuber/img/4.png" class="img-fluid" alt="Chose OAuth client ID"></p>
+<p><img src="../..\blog/blog_20230603_Tuber/img/5.png" class="img-fluid" alt="Chose web application"></p>
+<p>Once the you done this, you have finished. Now you need to take note of the ClientID and the Secret, and to download the Json to your working directory.</p>
+<p><img src="../..\blog/blog_20230603_Tuber/img/6.png" class="img-fluid" alt="Download Json"></p>
+<p>In R you code should look like this:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tuber)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>id <span class="ot">&lt;-</span> <span class="st">'108XXXXXXXXX-myidAAAAAAAA.apps.googleusercontent.com'</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>secret <span class="ot">&lt;-</span> <span class="st">'GOCSPX-wrMYSECRETXXXXXXXXXX'</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">yt_oauth</span>(id, secret, <span class="at">token =</span> <span class="st">''</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>Once you’ve run the yt_oauth() command, you will authenticate the application and R will download a “.httr-oauth” file, and then tuber you connected to youtube and you can use all its functions. Namely the get_all_comments() to download all comments. Which later you can place it in a data-frame, and do data wrangling as needed.</p>
+<p>From session to session you need to reauthenticate the application by running the yt_oauth(). If you already have the “.httr-oauth” file on your working directory, this wont work. So to get around this, I added this piece of code at the beginning of my script.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">file.exists</span>(<span class="st">'.httr-oauth'</span>)) {</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">file.remove</span>(<span class="st">'.httr-oauth'</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This post marks the beginning of a series where I will delve into the analysis process. A significant challenge I face is that the majority of comments are in Spanish, rendering standard sentiment analysis packages ineffective. Therefore, my next hurdle will involve exploring alternative solutions, such as finding a suitable sentiment analysis package or utilizing a machine learning model capable of classifying the vast number of comments. Alternatively, I might resort to manually classifying approximately 6000 comments. Regardless, this presents an intriguing challenge that I am prepared to tackle in the upcoming stages.</p>
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
