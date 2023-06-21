@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A place to store learnings and thoughts on my research, readings and R development">
+<meta name="author" content="João Granja-Correia">
+<meta name="dcterms.date" content="2023-06-21">
+<meta name="description" content="Discovering Bent Flyvbjerg’s ‘Making Social Science Matter’ illuminated the challenges I face as a researcher, bridging the gap between my engineering background and the complexities of social inquiry.">
 
-<title>Hello I’m João - Blog and notes</title>
+<title>Hello I’m João - Reflections on Bent Flyvbjerg’s ‘Making Social Science Matter’</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,38 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -103,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Hello I’m João</span>
     </a>
   </div>
@@ -114,19 +83,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.html" rel="" target="">
+    <a class="nav-link" href="../../projects/index.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/blog.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../blog/blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -142,25 +111,41 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="CourseWork">CourseWork <span class="quarto-category-count">(2)</span></div><div class="category" data-category="PM">PM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Reading notes">Reading notes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Social Sciences">Social Sciences <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Youtube">Youtube <span class="quarto-category-count">(1)</span></div><div class="category" data-category="meme">meme <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tuber">tuber <span class="quarto-category-count">(1)</span></div><div class="category" data-category="webscraping">webscraping <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog and notes</h1>
-</div>
+<h1 class="title">Reflections on Bent Flyvbjerg’s ‘Making Social Science Matter’</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Reading notes</div>
+    <div class="quarto-category">Social Sciences</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    <p>A place to store learnings and thoughts on my research, readings and R development</p>
+    <p>Discovering Bent Flyvbjerg’s ‘Making Social Science Matter’ illuminated the challenges I face as a researcher, bridging the gap between my engineering background and the complexities of social inquiry.</p>
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>João Granja-Correia </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 21, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -168,73 +153,18 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="blog" class="level3">
-<h3 class="anchored" data-anchor-id="blog">Blog</h3>
-<div id="listing-blog" class="quarto-listing quarto-listing-container-table">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="Reading notes,Social Sciences" data-listing-date-sort="1687302000000" data-listing-file-modified-sort="1687344218492" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Reflections on Bent Flyvbjerg's 'Making Social Science Matter'" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230621_Reading_Reflections/index.html" class="title listing-title">Reflections on Bent Flyvbjerg’s ‘Making Social Science Matter’</a>
-</td>
-<td>
-<span class="listing-date">Jun 21, 2023</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="R,tuber,Youtube,webscraping" data-listing-date-sort="1685919600000" data-listing-file-modified-sort="1687343493837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Tuber - connecting R to Youtube API" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230603_Tuber/index.html" class="title listing-title">Tuber - connecting R to Youtube API</a>
-</td>
-<td>
-<span class="listing-date">Jun 5, 2023</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="PM,meme" data-listing-date-sort="1684969200000" data-listing-file-modified-sort="1685011816413" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Collecting project management memes" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230525_PM_memes/index.html" class="title listing-title">Collecting project management memes</a>
-</td>
-<td>
-<span class="listing-date">May 25, 2023</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="CourseWork" data-listing-date-sort="1684105200000" data-listing-file-modified-sort="1684222038044" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Writing your PhD thesis in Humanities - Activity 2" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230515_Activity2/index.html" class="title listing-title">Writing your PhD thesis in Humanities - Activity 2</a>
-</td>
-<td>
-<span class="listing-date">May 15, 2023</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="CourseWork" data-listing-date-sort="1683932400000" data-listing-file-modified-sort="1684222038041" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Writing your PhD thesis in Humanities - Activity 1" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230513_Activity1/index.html" class="title listing-title">Writing your PhD thesis in Humanities - Activity 1</a>
-</td>
-<td>
-<span class="listing-date">May 13, 2023</span>
-</td>
-</tr>
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../..\blog/blog_20230621_Reading_Reflections/img/Livro - Bent Flyvbjerg.jpg" class="img-fluid figure-img" width="250"></p>
+</figure>
 </div>
-</div>
+<p>In the realm of social science inquiry, navigating the complexities of research can often feel like a daunting task. As someone pursuing a PhD in management with an engineering background, I have personally experienced the struggle of reconciling my hard-science approach with the intricacies of social phenomena. <a href="https://scholar.google.com/citations?user=79htA7gAAAAJ">Bent Flyvbjerg</a> has focused much of his research in the field of project management. This was my initial contact with his work, namely his very relevant “<a href="http://journals.sagepub.com/doi/10.1177/87569728211049046">Top Ten Behavioral Biases in Project Management: An Overview</a>”. However after devouring a few other articles of his I searched online for other publications. It was in this context that I stumbled upon Bent Flyvbjerg’s thought-provoking book, “<a href="https://www.amazon.com/Making-Social-Science-Matter-Inquiry/dp/052177568X/ref=sr_1_1?crid=35LFSB4R9MXX2&amp;keywords=Making+social+science+matter%3A+Why+social+inquiry+fails+and+how+it+can+succeed+again&amp;qid=1687343981&amp;sprefix=making+social+science+matter+why+social+inquiry+fails+and+how+it+can+succeed+again%2Caps%2C165&amp;sr=8-1">Making Social Science Matter: Why Social Inquiry Fails and How it Can Succeed Again.</a>”.</p>
+<p>Flyvbjerg’s book struck a chord with me, as it directly addressed many of the internal struggles I have encountered when studying project management from a social science perspective. Coming from a hard-science background, I found myself grappling with the unique complexities inherent in social science research. Flyvbjerg’s insightful exploration shed light on these challenges and provided a fresh perspective.</p>
+<p>Early on one aspect of the book that particularly captivated me was Flyvbjerg’s discussion of the <a href="https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition">Dreyfus model</a> of skill acquisition. What made it even more intriguing was his clever analogy using the game of chess. As a parent, I have observed my seven-year-old son’s journey into the world of chess. While I possess a basic understanding of the rules and some theoretical openings knowledge, I have remained at the novice level, and after just a few months I started losing consistently to my son. Clearly he had developed context dependent knowledge, that he is unable to express beyond my own level. Flyvbjerg’s analysis shed light on the reasons behind this disparity, deepening my understanding of the complexities involved in mastering a skill.</p>
+<p>One of the pivotal concepts that Flyvbjerg emphasizes is the distinction between <a href="https://en.wikipedia.org/wiki/Phronesis">phronesis</a>, <a href="https://en.wikipedia.org/wiki/Episteme">episteme</a>, and <a href="https://en.wikipedia.org/wiki/Techne">téchne</a>. Phronesis refers to practical wisdom and judgement, episteme relates to theoretical knowledge, and téchne denotes technical know-how. In the social sciences, context-dependent phronesis plays a crucial role. Flyvbjerg argues that understanding the social world requires more than just theoretical knowledge or technical skills; it necessitates the cultivation of practical wisdom in the given context. This resonated deeply with my own research journey, highlighting the significance of context in unraveling the complexities of the dynamics surrounding project management.</p>
+<p>Flyvbjerg’s exploration of <a href="https://en.wikipedia.org/wiki/Reflexivity_(social_theory)">reflexivity</a> further enriched my understanding of the social sciences. Reflexivity calls for researchers to critically reflect on their own biases, values, and assumptions that may influence their inquiries. It serves as a vital tool for enhancing the rigor and validity of social science research. Flyvbjerg’s insights reinforced the importance of self-awareness and continuous introspection in my own work, allowing for a more nuanced and comprehensive understanding of the subject matter. Through this book, I have gained valuable insights that will undoubtedly shape my future endeavors as a social science researcher, reminding me of the critical importance of context, practical wisdom, and self-reflection. I am looking forward to reading his more project management related book “<a href="https://www.amazon.com/How-Big-Things-Get-Done-ebook/dp/B0B3HS4C98/ref=sr_1_1?crid=2WMQ47CC98RBP&amp;keywords=How+big+things+get+done&amp;qid=1687344194&amp;sprefix=how+big+things+get+done%2Caps%2C622&amp;sr=8-1">How big things get done</a>”.</p>
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

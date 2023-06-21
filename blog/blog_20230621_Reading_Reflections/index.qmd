@@ -1,0 +1,29 @@
+---
+title: "Reflections on Bent Flyvbjerg's 'Making Social Science Matter'"
+author: "João Granja-Correia"
+description: | 
+  Discovering Bent Flyvbjerg's 'Making Social Science Matter' illuminated the challenges I face as a researcher, bridging the gap between my engineering background and the complexities of social inquiry.
+date: "2023-06-21"
+categories: [Reading notes, Social Sciences]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    code-fold: false
+    code-tools: false
+execute:
+  echo: false
+  output: false
+---
+
+![](/blog/blog_20230621_Reading_Reflections/img/Livro - Bent Flyvbjerg.jpg){fig-align="center" width="250"}
+
+In the realm of social science inquiry, navigating the complexities of research can often feel like a daunting task. As someone pursuing a PhD in management with an engineering background, I have personally experienced the struggle of reconciling my hard-science approach with the intricacies of social phenomena. [Bent Flyvbjerg](https://scholar.google.com/citations?user=79htA7gAAAAJ) has focused much of his research in the field of project management. This was my initial contact with his work, namely his very relevant "[Top Ten Behavioral Biases in Project Management: An Overview](http://journals.sagepub.com/doi/10.1177/87569728211049046)". However after devouring a few other articles of his I searched online for other publications. It was in this context that I stumbled upon Bent Flyvbjerg's thought-provoking book, "[Making Social Science Matter: Why Social Inquiry Fails and How it Can Succeed Again.](https://www.amazon.com/Making-Social-Science-Matter-Inquiry/dp/052177568X/ref=sr_1_1?crid=35LFSB4R9MXX2&keywords=Making+social+science+matter%3A+Why+social+inquiry+fails+and+how+it+can+succeed+again&qid=1687343981&sprefix=making+social+science+matter+why+social+inquiry+fails+and+how+it+can+succeed+again%2Caps%2C165&sr=8-1)".
+
+Flyvbjerg's book struck a chord with me, as it directly addressed many of the internal struggles I have encountered when studying project management from a social science perspective. Coming from a hard-science background, I found myself grappling with the unique complexities inherent in social science research. Flyvbjerg's insightful exploration shed light on these challenges and provided a fresh perspective.
+
+Early on one aspect of the book that particularly captivated me was Flyvbjerg's discussion of the [Dreyfus model](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) of skill acquisition. What made it even more intriguing was his clever analogy using the game of chess. As a parent, I have observed my seven-year-old son's journey into the world of chess. While I possess a basic understanding of the rules and some theoretical openings knowledge, I have remained at the novice level, and after just a few months I started losing consistently to my son. Clearly he had developed context dependent knowledge, that he is unable to express beyond my own level. Flyvbjerg's analysis shed light on the reasons behind this disparity, deepening my understanding of the complexities involved in mastering a skill.
+
+One of the pivotal concepts that Flyvbjerg emphasizes is the distinction between [phronesis](https://en.wikipedia.org/wiki/Phronesis), [episteme](https://en.wikipedia.org/wiki/Episteme), and [téchne](https://en.wikipedia.org/wiki/Techne). Phronesis refers to practical wisdom and judgement, episteme relates to theoretical knowledge, and téchne denotes technical know-how. In the social sciences, context-dependent phronesis plays a crucial role. Flyvbjerg argues that understanding the social world requires more than just theoretical knowledge or technical skills; it necessitates the cultivation of practical wisdom in the given context. This resonated deeply with my own research journey, highlighting the significance of context in unraveling the complexities of the dynamics surrounding project management.
+
+Flyvbjerg's exploration of [reflexivity](https://en.wikipedia.org/wiki/Reflexivity_(social_theory)) further enriched my understanding of the social sciences. Reflexivity calls for researchers to critically reflect on their own biases, values, and assumptions that may influence their inquiries. It serves as a vital tool for enhancing the rigor and validity of social science research. Flyvbjerg's insights reinforced the importance of self-awareness and continuous introspection in my own work, allowing for a more nuanced and comprehensive understanding of the subject matter. Through this book, I have gained valuable insights that will undoubtedly shape my future endeavors as a social science researcher, reminding me of the critical importance of context, practical wisdom, and self-reflection. I am looking forward to reading his more project management related book "[How big things get done](https://www.amazon.com/How-Big-Things-Get-Done-ebook/dp/B0B3HS4C98/ref=sr_1_1?crid=2WMQ47CC98RBP&keywords=How+big+things+get+done&qid=1687344194&sprefix=how+big+things+get+done%2Caps%2C622&sr=8-1)".

@@ -2,7 +2,7 @@
 title: "Tuber - connecting R to Youtube API"
 author: "João Granja-Correia"
 description: | 
-  What can be said about project managers pains from popular PM memes
+  How to use tuber to scrap data from Youtube
 date: "2023-06-05"
 categories: [R, tuber, Youtube, webscraping]
 title-block-banner: false
