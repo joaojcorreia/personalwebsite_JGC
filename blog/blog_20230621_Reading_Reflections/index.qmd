@@ -16,7 +16,7 @@ execute:
   output: false
 ---
 
-![](/blog/blog_20230621_Reading_Reflections/img/Livro - Bent Flyvbjerg.jpg){fig-align="center" width="250"}
+![](/blog/blog_20230621_Reading_Reflections/img/Livro%20-%20Bent%20Flyvbjerg.jpg){fig-align="center" width="250"}
 
 In the realm of social science inquiry, navigating the complexities of research can often feel like a daunting task. As someone pursuing a PhD in management with an engineering background, I have personally experienced the struggle of reconciling my hard-science approach with the intricacies of social phenomena. [Bent Flyvbjerg](https://scholar.google.com/citations?user=79htA7gAAAAJ) has focused much of his research in the field of project management. This was my initial contact with his work, namely his very relevant "[Top Ten Behavioral Biases in Project Management: An Overview](http://journals.sagepub.com/doi/10.1177/87569728211049046)". However after devouring a few other articles of his I searched online for other publications. It was in this context that I stumbled upon Bent Flyvbjerg's thought-provoking book, "[Making Social Science Matter: Why Social Inquiry Fails and How it Can Succeed Again.](https://www.amazon.com/Making-Social-Science-Matter-Inquiry/dp/052177568X/ref=sr_1_1?crid=35LFSB4R9MXX2&keywords=Making+social+science+matter%3A+Why+social+inquiry+fails+and+how+it+can+succeed+again&qid=1687343981&sprefix=making+social+science+matter+why+social+inquiry+fails+and+how+it+can+succeed+again%2Caps%2C165&sr=8-1)".
 
