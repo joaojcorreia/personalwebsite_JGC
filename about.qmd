@@ -1,6 +1,6 @@
 ---
 title: "João Granja-Correia"
-image: images/Joao.Granja-Correia2.jpg
+image: images/Joao.Granja-Correia3.jpg
 page-layout: article
 about:
   id: hero-heading

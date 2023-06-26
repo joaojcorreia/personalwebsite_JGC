@@ -1,0 +1,45 @@
+---
+title: "Three days enjoying Bilbao"
+author: "João Granja-Correia"
+description: | 
+  Three days enjoying the beautiful city of Bilbao (Spain)
+date: "2023-06-26"
+categories: [Traveling, Bilbao, Spain]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    code-fold: false
+    code-tools: false
+execute:
+  echo: false
+  output: false
+---
+
+A couple of weeks ago, I traveled to Spain to attend classes at the Universidad de Cantabria in Santander. During my trip, I made sure to explore both Bilbao and Santander, and I'm thrilled to share my first blog post about the remarkable city of Bilbao, which I must say, it exceeded all expectations. From stunning architectural wonders to captivating museums, Bilbao offers a perfect blend of art, culture, and history.
+
+![View from the Bilbao Museum](/blog/blog_20230626_Bilbao/img/bilbaomuseum.jpg){fig-align="center" width="800"}
+
+Bilbao is a captivating city that effortlessly combines modernity with a deep sense of cleanliness and orderliness. During my visit, I was astounded by the immaculate condition of the public spaces, which were meticulously maintained and adorned with beautiful flowering plants. It was refreshing to witness how everyone took great care in keeping the city clean, even those accompanied by their furry companions. The cityscape itself is a harmonious blend of charming pre-Civil War buildings and contemporary structures. The architectural design is well-planned, ensuring a seamless integration of old and new. The wide and spacious roads allow for smooth navigation, contributing to a sense of openness and accessibility.
+
+![Public gardens](/blog/blog_20230626_Bilbao/img/publicspaces.jpg){fig-align="center" width="800"}
+
+What struck me the most were the abundance of modern playgrounds scattered throughout the city, a testament to Bilbao's dedication to creating a livable environment for its residents. Additionally, the availability of university-wide WiFi coverage was a pleasant surprise. It was remarkable to experience such widespread connectivity, enabling easy access to the internet for students and visitors alike.
+
+![Old city - Casco viejo](/blog/blog_20230626_Bilbao/img/oldcity%201.jpg){fig-align="center" width="800"}
+
+The old city, known as "casco viejo," is a charming and enchanting neighborhood that exudes historical allure. As I strolled through its narrow streets, I couldn't help but be captivated by the well-preserved medieval buildings that lined the thoroughfares. The casco viejo is a bustling hub of commerce, with a myriad of shops catering to tourists and locals alike. It's the perfect place to immerse yourself in the local culture and indulge in the renowned pintxos, the Basque Country's version of tapas. The architectural beauty of the buildings, constructed from local stone, creates a mesmerizing interplay of light and colors in the vibrant squares.
+
+The Ria, a river that gracefully winds through Bilbao, offers a picturesque setting for a leisurely stroll, allowing visitors to soak in the beauty of the city. As I wandered along its banks, I couldn't help but appreciate the historical significance of the Ria in shaping Bilbao's identity as a vital urban center. It served as a crucial and strategic waterway, contributing to the city's growth and prominence over the years. The Ria is adorned with several noteworthy bridges that add to its charm. One of the highlights is the modern Zubizuri bridge, a pedestrian bridge with its distinctive white arch that gracefully spans the river, inviting pedestrians to cross with elegance. Another notable bridge is the Puente de La Salve, an architectural marvel that impressively connects both sides of the river.
+
+![View if the Ría with the Guggenheim, Puente de La Salve and the Iberdrola tower](/blog/blog_20230626_Bilbao/img/GMuseum.jpg){width="800"}
+
+Museums to visit:
+
+-   First on the list is the [Bilbao Museum](https://bilbaomuseoa.eus/en/home/), conveniently located near the iconic Iberdrola tower. This hidden gem houses a remarkable eclectic collection of art from the late 19th, 20th, and 21st centuries. The best part? Admission is free, making it an absolute must-visit.
+
+-   No visit to Bilbao would be complete without a stop at the world-renowned [Guggenheim Museum](https://www.guggenheim-bilbao.eus). Its distinctive architecture alone is a sight to behold, drawing visitors from far away. I highly recommend purchasing tickets in advance and arriving early. During my visit, I had the pleasure of exploring the [Oskar Kokoschka exhibit](https://www.guggenheim-bilbao.eus/en/exhibitions/oskar-kokoschka-a-rebel-from-vienna). The visually impressive paintings were not only a feast for the eyes but also shed light on the tumultuous history of 20th-century Europe. The carefully curated exhibition allowed me to delve deeper into the artist's journey and gain a profound understanding of the era in which he lived.
+
+-   For history enthusiasts, a visit to the [Bilbao Archeology Museum](https://bizkaikoa.bizkaia.eus/detalleContenido.asp?id=68&t=1) is an absolute must. Tucked away in the charming old city, this museum may go unnoticed by many. However, it holds a treasure trove of artifacts that shed light on Bilbao's rich past. The stone age collection, in particular, showcases the importance of cave findings in the Bizkaia area. Through interactive displays, I embarked on a virtual journey to local caves, immersing myself in cave paintings. The museum's antiquity and medieval collections further enhanced my understanding of Bilbao's strategic significance throughout history.
+
+In my next post, I will share my day trip to Portogalete. Situated just a short distance from Bilbao, this charming town offers a unique blend of historical landmarks and captivating coastal views.
