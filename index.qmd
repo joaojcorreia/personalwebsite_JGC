@@ -13,8 +13,8 @@ about:
       text: joaojcorreia
       href: https://github.com/joaojcorreia
     - icon: mastodon
-      text: '@joaocorreia@mastodon.world'
-      href: https://mastodon.world/@joaocorreia
+      text: '@joaogranjacorreia@fediscience.org'
+      href: https://fediscience.org/@joaogranjacorreia
 ---
 
 ::: {#hero-heading}

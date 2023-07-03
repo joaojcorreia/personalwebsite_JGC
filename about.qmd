@@ -11,8 +11,8 @@ about:
       text: jgc672@alumnos.unican.es
       href: mailto:jgc672@alumnos.unican.es
     - icon: mastodon
-      text: '@joaocorreia@mastodon.world'
-      href: https://mastodon.world/@joaocorreia
+      text: '@joaogranjacorreia@fediscience.org'
+      href: https://fediscience.org/@joaogranjacorreia
     - icon: linkedin
       text: joaojcorreia
       href: https://www.linkedin.com/in/joaojcorreia
@@ -41,5 +41,5 @@ My **interests** are:
 
 Outside of work, my time is mostly occupied by my three wonderful children, who keep me on my toes and bring joy to my life. I love spending time outdoors, and during the summer you can often find me at the beach, enjoying the sun, sea, and a good book. I am fluent in English, Portuguese, Italian and Spanish, and I've been trying to learn Hebrew for the past few years, although progress has been slow. 
 
-Follow me on <a rel="me" href="https://mastodon.world/@joaocorreia">Mastodon</a>.
+Follow me on <a rel="me" href="https://fediscience.org/@joaogranjacorreia">Mastodon</a>.
 
