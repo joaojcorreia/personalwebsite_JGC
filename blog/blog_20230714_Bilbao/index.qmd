@@ -18,7 +18,7 @@ execute:
 
 Following up on my previous adventures in Bilbao, I wanted to share the highlights of my day trip to Portugalete. On our last day in Bilbao, we decided to embark on a boat trip to explore this neighboring town. Opting for the [El Bote Tours](https://elbotebilbao.com/) service turned out to be a fantastic choice as it provided us with an excellent experience from start to finish. I highly recommend this excursion to anyone visiting Bilbao!
 
-![View from the Ria of the Bilbao museum, with children enjoying the summer day](/blog/blog_20230714_Bilbao/img/20230612_102253-EDIT.jpg){alt="View from the Ria of the Bilbao museum, with children enjoying the summer day" fig-alt="View of the Bilbao museum from the Ria" fig-align="center" width="800"}
+![View from the Ria of the Bilbao museum, with children enjoying the summer day](/blog/blog_20230714_Bilbao/img/20230612_102253-EDIT.jpg){fig-alt="View of the Bilbao museum from the Ria" fig-align="center" width="800"}
 
 The boat journey, lasting approximately an hour and a half, took us from the picturesque Bilbao ria all the way to the sea. As we gradually moved away from the bustling city, an intriguing transformation unfolded before our eyes. The remnants of Bilbao's industrial past emerged on the horizon, with sprawling abandoned industrial spaces that served as a poignant reminder of the city's history. However, what captured our attention was the sight of modern neighborhoods taking their place, breathing new life into the landscape. It was a fascinating contrast to witness the blend of Bilbao's industrial heritage and the vibrant evolution of its urban fabric.
 
@@ -28,44 +28,15 @@ Amidst the evolving landscape, Bilbao proudly preserves the occasional operating
 
 ![ArcelorMittal steel mill](/blog/blog_20230714_Bilbao/img/20230612_110523.jpg){fig-align="center" width="800"}
 
-The boat tour concluded at the picturesque seaside village of [Getxo](https://en.wikipedia.org/wiki/Getxo),
-which added a touch of coastal charm to our Bilbao adventure. As we
-approached Getxo by sea, our gaze was captivated by the breathtaking
-Arriluce lighthouse, standing proudly as a welcoming beacon. Once a
-favored summer getaway for Bilbao's affluent residents, Getxo still
-retains its elegant allure. The village is dotted with beautiful
-mansions, predominantly built in the early 20th century by the esteemed
-architect [Manuel Maria Smith](https://es.wikipedia.org/wiki/Manuel_Mar%C3%ADa_Smith). These architectural gems, nestled among
-the village streets, offer a glimpse into a bygone era of opulence and
-refined aesthetics. Exploring Getxo is like stepping back in time, where
-the tranquility of the seaside blends harmoniously with the
-architectural splendor of these historic mansions.
+The boat tour concluded at the picturesque seaside village of [Getxo](https://en.wikipedia.org/wiki/Getxo), which added a touch of coastal charm to our Bilbao adventure. As we approached Getxo by sea, our gaze was captivated by the breathtaking Arriluce lighthouse, standing proudly as a welcoming beacon. Once a favored summer getaway for Bilbao's affluent residents, Getxo still retains its elegant allure. The village is dotted with beautiful mansions, predominantly built in the early 20th century by the esteemed architect [Manuel Maria Smith](https://es.wikipedia.org/wiki/Manuel_Mar%C3%ADa_Smith). These architectural gems, nestled among the village streets, offer a glimpse into a bygone era of opulence and refined aesthetics. Exploring Getxo is like stepping back in time, where the tranquility of the seaside blends harmoniously with the architectural splendor of these historic mansions.
 
 ![Faro de Arriluce](/blog/blog_20230714_Bilbao/img/20230612_115728-EDIT.jpg){fig-alt="Faro de Arriluce" fig-align="center" width="800"}
 
-Between Getxo and Portugalete lies the magnificent [Vizcaya Bridge](https://en.wikipedia.org/wiki/Vizcaya_Bridge), a
-remarkable engineering marvel that adds a touch of grandeur to the
-landscape. Built in 1893, this iconic iron construction stands as the
-world's oldest transporter bridge. Designed by Alberto Palacio, a
-disciple of the renowned Gustave Eiffel, the bridge holds a special
-place in architectural history. During our visit, we had the pleasure of
-purchasing tickets and experiencing the thrill of moving across in the
-gondola. It was truly a unique and memorable journey. Adding to its
-prestige, the Vizcaya Bridge was rightfully recognized as a UNESCO World
-Heritage Site on July 13, 2006. Still fully operational, the bridge
-spans 164 meters and operates every 8 minutes, seamlessly transporting
-both cars and passengers throughout the day.
+Between Getxo and Portugalete lies the magnificent [Vizcaya Bridge](https://en.wikipedia.org/wiki/Vizcaya_Bridge), a remarkable engineering marvel that adds a touch of grandeur to the landscape. Built in 1893, this iconic iron construction stands as the world's oldest transporter bridge. Designed by Alberto Palacio, a disciple of the renowned Gustave Eiffel, the bridge holds a special place in architectural history. During our visit, we had the pleasure of purchasing tickets and experiencing the thrill of moving across in the gondola. It was truly a unique and memorable journey. Adding to its prestige, the Vizcaya Bridge was rightfully recognized as a UNESCO World Heritage Site on July 13, 2006. Still fully operational, the bridge spans 164 meters and operates every 8 minutes, seamlessly transporting both cars and passengers throughout the day.
 
 ![View of the Vyzcaya Bridge from Portugalete](/blog/blog_20230714_Bilbao/img/20230612_143514-EDIT.jpg){fig-alt="View of the Vyzcaya Bridge from Portugalete" fig-align="center"}
 
-Nestled by the tranquil Ria, Portugalete is a charming village that
-offers a serene cityscape. While wandering through its streets, we
-couldn't help but admire two notable landmarks. The Estación de la
-Canilla, with its vibrant colors, stood gracefully by the water's edge,
-enhancing the scenic beauty of the surroundings. The imposing [Basílica de Santa María](https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_Santa_Mar%C3%ADa_(Portugalete)) commanded attention with its historical significance and
-architectural splendor. As the day drew to a close, we found solace in
-the convenience of the modern subway connection, making our journey back
-to the city seamless.
+Nestled by the tranquil Ria, Portugalete is a charming village that offers a serene cityscape. While wandering through its streets, we couldn't help but admire two notable landmarks. The Estación de la Canilla, with its vibrant colors, stood gracefully by the water's edge, enhancing the scenic beauty of the surroundings. The imposing [Basílica de Santa María](https://es.wikipedia.org/wiki/Bas%C3%ADlica_de_Santa_Mar%C3%ADa_(Portugalete)) commanded attention with its historical significance and architectural splendor. As the day drew to a close, we found solace in the convenience of the modern subway connection, making our journey back to the city seamless.
 
 ![View of Portugalete with the Basílica de Santa María and the Estación de la Canilla](/blog/blog_20230714_Bilbao/img/20230612_111202.jpg){fig-alt="View of Portugalete" width="800"}
 
