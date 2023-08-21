@@ -4,7 +4,7 @@ author: "João Granja-Correia"
 description: | 
   Three days enjoying the beautiful city of Bilbao (Spain)
 date: "2023-06-26"
-categories: [Traveling, Bilbao, Spain]
+categories: [Traveling, Spain]
 title-block-banner: false
 format: 
   html:

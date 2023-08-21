@@ -1,0 +1,43 @@
+---
+title: "Four days in Santander"
+author: "João Granja-Correia"
+description: | 
+  Visiting the beautiful city of Santander (Spain)
+date: "2023-08-21"
+categories: [Traveling, Spain]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    code-fold: false
+    code-tools: false
+execute:
+  echo: false
+  output: false
+---
+
+This post is long overdue, marking the final chapter of my trip to northern Spain. During the last leg of my journey, I had the pleasure of staying in the beautiful city of Santander. My initial reason for coming to Spain was to attend in-person classes at the Universidad de Cantabria. I seized the opportunity to enroll in a three-day course on scientific publications, an area where I aimed to enhance my skills. The course, titled "Aspectos fundamentales de preparacion de publicaciones cientificas," was highly informative and provided valuable insights into this crucial aspect of academia. Interacting with fellow colleagues and experiencing daily life on the Universidad de Cantabria campus along the "Avenida de los Castros" was both enlightening and fulfilling. I also took the time to express my gratitude to the staff at the "Escuela de Doctorado" for their unwavering support over the past months.
+
+![Plaza Porticada](/blog/blog_20230821_Santander/img/20230614_173654.jpg){fig-alt="Santander central plaza" fig-align="center" width="800"}
+
+Santander itself is a gem of a city and the capital of the picturesque Cantabria region, characterized by lush green mountains and a stunning coastline. It seamlessly blends three distinct elements: the urban landscape, the serene sea, and the majestic mountains. Upon arrival, I embarked on a walk along the coastline, where one side revealed the charming city with its exquisite early 20th-century architecture. On the other side of the bay, the azure sea stretched out, cradling Santander, while the verdant mountains framed the entire panorama. It was an awe-inspiring sight.
+
+![Sea and mountains](/blog/blog_20230821_Santander/img/20230615_181854.jpg){fig-alt="View of Santander sea shore" fig-align="center" width="800"}
+
+Compared to Bilbao, Santander exudes a more laid-back atmosphere, leaning towards tourism rather than being solely business-oriented. This is partly due to its proximity to the sea, making it a coveted beach destination and a hub for aquatic sports enthusiasts.
+
+![Centro Botin and the Santander bay](/blog/blog_20230821_Santander/img/20230613_221531.jpg){fig-alt="View of the Centro Botin" fig-align="center" width="800"}
+
+During my stay, I had the opportunity to explore several fascinating museums. First on the list was the [Centro Botin](https://www.centrobotin.org), a contemporary art museum housed in a stunning building designed by the renowned Italian architect [Renzo Piano](https://en.wikipedia.org/wiki/Renzo_Piano), situated right by the sea. The highlight of the visit was the exhibition by American artist [Roni Horn](https://en.wikipedia.org/wiki/Roni_Horn), which focused on water and rivers, an apt theme given the museum's location. The Centro Botin also boasts an impressive collection of modern art, and the staff is exceptionally helpful, offering guided tours and insights into the various exhibitions. I highly recommend a visit.
+
+![Glass sculptures by Roni Horn](/blog/blog_20230821_Santander/img/20230614_112953-EDIT.jpg){fig-alt="Glass sctulpture" fig-align="center" width="800"}
+
+Another must-see is the Cantabria Archaeological Museum, conveniently located in the city center next to the Mercado Municipal del Este, a former market converted into a small shopping area. Cantabria boasts a rich history, particularly in terms of ancient caves like Altamira, and this museum effectively portrays that heritage. Its well-curated exhibits provide valuable insights into local prehistory. If you have an interest in history, archaeology, and early civilizations, this museum is a must-visit.
+
+Lastly, the Cantabrian Maritime Museum, set against the backdrop of the bay, offers a captivating collection that delves into the region's seafaring history, fishing traditions, and its deep connection to the sea. The museum also features a beautiful aquarium on its lower level, showcasing local marine species in their natural habitats. This is a definite must-visit, especially if you're traveling with children.
+
+![View of the Playa de los Bikinis at Madalena Island](/blog/blog_20230821_Santander/img/20230616_131111.jpg){fig-alt="View of a beach" fig-align="center" width="800"}
+
+As mentioned earlier, Santander is renowned as a seaside resort, and the northern part of the city boasts beautiful beaches, perfect for leisurely strolls by the sea. I was fortunate to visit on a warm late spring day, allowing me to relish an enjoyable afternoon at the beach. The beaches at the Madalena island, facing the city, are particularly breathtaking. The city skyline, lush mountains, expansive sea, and golden sandy beaches together form a truly picturesque backdrop.
+
+So, aside from my academic pursuits at the Universidad de Cantabria, I'm absolutely determined to return to Santander, this time with my children, to relish all the experiences and delights this captivating city has to offer.

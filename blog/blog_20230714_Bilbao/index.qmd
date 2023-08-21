@@ -4,7 +4,7 @@ author: "João Granja-Correia"
 description: | 
   Boat day trip to Portugalete (Spain)
 date: "2023-07-14"
-categories: [Traveling, Bilbao, Spain]
+categories: [Traveling, Spain]
 title-block-banner: false
 format: 
   html:
