@@ -1,0 +1,33 @@
+---
+title: "A Review of 'En busca del tiempo de que vivimos'"
+author: "João Granja-Correia"
+description: | 
+  Navigating the Complexities of Modern Society: A Review of 'En busca del tiempo de que vivimos – Fragmentos del hombre moderno' by Gregorio Luri
+date: "2023-08-28"
+categories: [Reading notes]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    code-fold: false
+    code-tools: false
+execute:
+  echo: false
+  output: false
+---
+
+One of my goals while studying at a Spanish institution is to improve my Spanish. Portuguese and Spanish are mutually intelligible languages, so being Portuguese, it is relatively easy to learn the basics and get by. However, developing a level of mastery that allows for natural discourse is a completely different matter. Like with any other language, that takes time and effort. You need to be exposed to the language, read, and listen.
+
+As part of my quest to read more in Spanish, during my stay in Spain in June, I browsed some bookstores for something to read. In one of these outings, I stumbled upon the book by the Spanish philosopher and pedagogue [Gregorio Luri](https://es.wikipedia.org/wiki/Gregorio_Luri_Medrano), titled '[En busca del tiempo en que vivimos -- Fragmentos del hombre moderno](https://www.amazon.es/busca-del-tiempo-que-vivimos-ebook/dp/B0BQWKGKLM)' (which can be translated to 'In search of the time we live in -- fragments of the modern man'). Since I was in search of something to read and didn't want to commit to more demanding literature at the time, the book, a philosophical essay on the modern world and its quirks, seemed like a nice compromise---relevant and approachable---so I decided to buy it.
+
+![Gregorio Luri's latest book](/blog/blog_20230828_En_busca_del_tiempo/img/20230828_105229.jpg){fig-alt="Book cover of \"En busca del tiempo en que vivimos\"" fig-align="center" width="800"}
+
+Like many in my age group in Portugal, I had two years of philosophy in high school and barely managed to pass. Maybe it was the way it was taught (although I actually have a positive memory of the teacher), maybe it was my own immaturity, or maybe it was an arrogant disdain by a teenager aspiring to study hard sciences---perhaps, it was all of them together. But at the time, I absolutely detested it. Over the past years, as I've developed a more mature view of the world, I've grown to enjoy reading philosophical works.
+
+Gregorio Luri's book is an interesting and relevant read. It explores some of the excesses and quirks of our modern society insightfully. From the aversion to progress and the deification of nature to the belief that we stand at the end of times while in a period of abundance, Luri's book is a thought-provoking work on the inherent tensions of modern society, the struggle between the old and the new, and the limits of what it means to be human.
+
+The book was published in early 2023, but while reading it, it becomes clear that it was partly written during the 2020/2021 COVID-19 crises. The excesses of the crises are present and shape the discourse, particularly in the way the elderly were simultaneously cared for and not cared for, reflecting on the criteria for the allocation of resources and the ever-changing narrative during this period.
+
+I was particularly struck by part one, where the author explores the current mistrust of science and progress while exposing the faith-based implicit trust in 'nature' and all that is natural. I believe that this is one of the most dangerous forms of the present 'my ignorance is just as valid as your knowledge' excesses of our social media-fueled society.
+
+In an era shaped by dogmatic binary positioning, *'En busca del tiempo en que vivimos -- Fragmentos del hombre moderno*' is a thought-provoking work that helps the reader take a more mature and distanced look at the excesses of society in a broader context. It was an interesting read that I strongly recommend. I am looking forward to reading more works (in Spanish) by Gregorio Luri.
