@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A place to store learnings and thoughts on my research, readings and R development">
+<meta name="author" content="João Granja-Correia">
+<meta name="dcterms.date" content="2023-08-28">
+<meta name="description" content="Enhance your argumentative skills with ‘A Rulebook for Arguments’ by Anthony Weston.">
 
-<title>Hello I’m João - Blog and notes</title>
+<title>Hello I’m João - A Review of ‘A Rulebook for Arguments’</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +26,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -61,38 +61,7 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -103,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Hello I’m João</span>
     </a>
   </div>
@@ -114,19 +83,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/index.html" rel="" target="">
+    <a class="nav-link" href="../../projects/index.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/blog.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../blog/blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -142,25 +111,40 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="CourseWork">CourseWork <span class="quarto-category-count">(2)</span></div><div class="category" data-category="PM">PM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Reading notes">Reading notes <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Social Sciences">Social Sciences <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Spain">Spain <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Traveling">Traveling <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Youtube">Youtube <span class="quarto-category-count">(1)</span></div><div class="category" data-category="meme">meme <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tuber">tuber <span class="quarto-category-count">(1)</span></div><div class="category" data-category="webscraping">webscraping <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog and notes</h1>
-</div>
+<h1 class="title">A Review of ‘A Rulebook for Arguments’</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Reading notes</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    <p>A place to store learnings and thoughts on my research, readings and R development</p>
+    <p>Enhance your argumentative skills with ‘A Rulebook for Arguments’ by Anthony Weston.</p>
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>João Granja-Correia </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 28, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -168,113 +152,21 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="blog" class="level3">
-<h3 class="anchored" data-anchor-id="blog">Blog</h3>
-<div id="listing-blog" class="quarto-listing quarto-listing-container-table">
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="Reading notes" data-listing-date-sort="1693177200000" data-listing-file-modified-sort="1693216987460" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="A Review of 'En busca del tiempo de que vivimos'" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230828_En_busca_del_tiempo/index.html" class="title listing-title">A Review of ‘En busca del tiempo de que vivimos’</a>
-</td>
-<td>
-<span class="listing-date">Aug 28, 2023</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="Reading notes" data-listing-date-sort="1693177200000" data-listing-file-modified-sort="1693867289897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="A Review of 'A Rulebook for Arguments'" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230904_Rulebook_for_arguments/index.html" class="title listing-title">A Review of ‘A Rulebook for Arguments’</a>
-</td>
-<td>
-<span class="listing-date">Aug 28, 2023</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="Traveling,Spain" data-listing-date-sort="1692572400000" data-listing-file-modified-sort="1692622689328" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Four days in Santander" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230821_Santander/index.html" class="title listing-title">Four days in Santander</a>
-</td>
-<td>
-<span class="listing-date">Aug 21, 2023</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="Traveling,Spain" data-listing-date-sort="1689289200000" data-listing-file-modified-sort="1692622731278" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Day trip to Portugalete" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230714_Bilbao/index.html" class="title listing-title">Day trip to Portugalete</a>
-</td>
-<td>
-<span class="listing-date">Jul 14, 2023</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="Traveling,Spain" data-listing-date-sort="1687734000000" data-listing-file-modified-sort="1692622696368" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Three days enjoying Bilbao" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230626_Bilbao/index.html" class="title listing-title">Three days enjoying Bilbao</a>
-</td>
-<td>
-<span class="listing-date">Jun 26, 2023</span>
-</td>
-</tr>
-<tr data-index="5" data-categories="Reading notes,Social Sciences" data-listing-date-sort="1687302000000" data-listing-file-modified-sort="1687452885965" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Reflections on Bent Flyvbjerg's 'Making Social Science Matter'" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230621_Reading_Reflections/index.html" class="title listing-title">Reflections on Bent Flyvbjerg’s ‘Making Social Science Matter’</a>
-</td>
-<td>
-<span class="listing-date">Jun 21, 2023</span>
-</td>
-</tr>
-<tr data-index="6" data-categories="R,tuber,Youtube,webscraping" data-listing-date-sort="1685919600000" data-listing-file-modified-sort="1687343493837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Tuber - connecting R to Youtube API" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230603_Tuber/index.html" class="title listing-title">Tuber - connecting R to Youtube API</a>
-</td>
-<td>
-<span class="listing-date">Jun 5, 2023</span>
-</td>
-</tr>
-<tr data-index="7" data-categories="PM,meme" data-listing-date-sort="1684969200000" data-listing-file-modified-sort="1685011816413" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Collecting project management memes" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230525_PM_memes/index.html" class="title listing-title">Collecting project management memes</a>
-</td>
-<td>
-<span class="listing-date">May 25, 2023</span>
-</td>
-</tr>
-<tr data-index="8" data-categories="CourseWork" data-listing-date-sort="1684105200000" data-listing-file-modified-sort="1684222038044" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Writing your PhD thesis in Humanities - Activity 2" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230515_Activity2/index.html" class="title listing-title">Writing your PhD thesis in Humanities - Activity 2</a>
-</td>
-<td>
-<span class="listing-date">May 15, 2023</span>
-</td>
-</tr>
-<tr data-index="9" data-categories="CourseWork" data-listing-date-sort="1683932400000" data-listing-file-modified-sort="1684222038041" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Writing your PhD thesis in Humanities - Activity 1" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230513_Activity1/index.html" class="title listing-title">Writing your PhD thesis in Humanities - Activity 1</a>
-</td>
-<td>
-<span class="listing-date">May 13, 2023</span>
-</td>
-</tr>
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
+<p>I took the week of August fifteenth off. The fifteenth is a holiday in Portugal, the day of <a href="https://en.wikipedia.org/wiki/Assumption_of_Mary">Our Lady of the Assumption</a>, so I always take that week off to go to the beach with the children. I usually use this week to catch up on my reading. However, with three young children, those days of burning through three or four books in a week are long gone. Nevertheless, I can’t complain about this last short holiday because I was able to finish the Gregorio Luri book I mentioned in my previous post and more books. One of them was a short 120-page book, <a href="https://en.wikipedia.org/wiki/Anthony_Weston">Anthony Weston</a>’s “<a href="https://www.amazon.es/Rulebook-Arguments-Anthony-Weston/dp/162466654X/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=14GIWPQCGCO1Q&amp;keywords=a+rulebook+of+arguments&amp;qid=1693856238&amp;sprefix=a+rulebook+of+arguments%2Caps%2C115&amp;sr=8-1">A Rulebook for Arguments</a>”.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/rulebook.image.jpg" class="img-fluid figure-img" alt="A Rulebook for arguments" width="800"></p>
+<figcaption class="figure-caption">A Rulebook for Arguments</figcaption>
+</figure>
 </div>
-</div>
+<p>This book had been recommended in my PhD class, “Argumentos y falacias: cómo construir y reconocer discursos racionales” (Arguments and Fallacies: How to Construct and Recognize Rational Discourses). It was one of the classes I attended last semester and quite enjoyed. It was a short course on how to craft and develop effective argumentation, which is useful for someone pursuing an academic career.</p>
+<p>This is a short yet extremely well-organized book. It introduces fifty rules that skillfully guide the reader through the best practices of constructing an effective argument. The book is concise, direct, and exceptionally well-written. Its structured approach aids the reader in organizing the key principles of argumentation while avoiding common pitfalls, and the examples presented with each rule help make them clearer.</p>
+<p>In an era marked by the prevalence of fake news and contentious online debates, this book serves as a valuable and potent guide. It benefits not only those seeking to craft compelling arguments but also individuals looking to adeptly filter through the fallacies. In our information-saturated age, where misinformation and misleading arguments proliferate, the ability to discern valid reasoning from fallacious claims is invaluable.</p>
+<p>I found Chapter VI particularly useful as it delves into deductive arguments. This skill is especially important for researchers who wish to communicate their results effectively and assertively. In the world of academia, where ideas are rigorously examined and debated, the ability to construct and present airtight arguments is a prized asset. Deductive reasoning, as explored in this chapter, offers researchers a powerful tool to build logical, well-structured, and persuasive arguments.</p>
+<p>Finally, the appendix lists and exposes the most common forms of fallacies. Fallacies are errors in reasoning that can make an argument invalid. As I mentioned before in today’s online world knowing how to identify and counter-argument fallacies is an important skill whose usefulness goes far beyond crafting effective arguments.</p>
+<p>I strongly recommend reading Anthony Weston’s “A Rulebook for arguments.” to anyone who wishes to improve their argumentative skills, particularly if you are doing research and want to be able to communicate your arguments in a structured and convincing manner.</p>
 
 
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

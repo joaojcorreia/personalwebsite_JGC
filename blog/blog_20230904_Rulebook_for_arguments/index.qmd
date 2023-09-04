@@ -1,0 +1,33 @@
+---
+title: "A Review of 'A Rulebook for Arguments'"
+author: "João Granja-Correia"
+description: | 
+  Enhance your argumentative skills with 'A Rulebook for Arguments' by Anthony Weston.
+date: "2023-08-28"
+categories: [Reading notes]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    code-fold: false
+    code-tools: false
+execute:
+  echo: false
+  output: false
+---
+
+I took the week of August fifteenth off. The fifteenth is a holiday in Portugal, the day of [Our Lady of the Assumption](https://en.wikipedia.org/wiki/Assumption_of_Mary), so I always take that week off to go to the beach with the children. I usually use this week to catch up on my reading. However, with three young children, those days of burning through three or four books in a week are long gone. Nevertheless, I can't complain about this last short holiday because I was able to finish the Gregorio Luri book I mentioned in my previous post and more books. One of them was a short 120-page book, [Anthony Weston](https://en.wikipedia.org/wiki/Anthony_Weston)'s "[A Rulebook for Arguments](https://www.amazon.es/Rulebook-Arguments-Anthony-Weston/dp/162466654X/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14GIWPQCGCO1Q&keywords=a+rulebook+of+arguments&qid=1693856238&sprefix=a+rulebook+of+arguments%2Caps%2C115&sr=8-1)".
+
+![A Rulebook for Arguments](img/rulebook.image.jpg){fig-alt="A Rulebook for arguments" fig-align="center" width="800"}
+
+This book had been recommended in my PhD class, "Argumentos y falacias: cómo construir y reconocer discursos racionales" (Arguments and Fallacies: How to Construct and Recognize Rational Discourses). It was one of the classes I attended last semester and quite enjoyed. It was a short course on how to craft and develop effective argumentation, which is useful for someone pursuing an academic career.
+
+This is a short yet extremely well-organized book. It introduces fifty rules that skillfully guide the reader through the best practices of constructing an effective argument. The book is concise, direct, and exceptionally well-written. Its structured approach aids the reader in organizing the key principles of argumentation while avoiding common pitfalls, and the examples presented with each rule help make them clearer.
+
+In an era marked by the prevalence of fake news and contentious online debates, this book serves as a valuable and potent guide. It benefits not only those seeking to craft compelling arguments but also individuals looking to adeptly filter through the fallacies. In our information-saturated age, where misinformation and misleading arguments proliferate, the ability to discern valid reasoning from fallacious claims is invaluable.
+
+I found Chapter VI particularly useful as it delves into deductive arguments. This skill is especially important for researchers who wish to communicate their results effectively and assertively. In the world of academia, where ideas are rigorously examined and debated, the ability to construct and present airtight arguments is a prized asset. Deductive reasoning, as explored in this chapter, offers researchers a powerful tool to build logical, well-structured, and persuasive arguments.
+
+Finally, the appendix lists and exposes the most common forms of fallacies. Fallacies are errors in reasoning that can make an argument invalid. As I mentioned before in today's online world knowing how to identify and counter-argument fallacies is an important skill whose usefulness goes far beyond crafting effective arguments.
+
+I strongly recommend reading Anthony Weston's "A Rulebook for arguments." to anyone who wishes to improve their argumentative skills, particularly if you are doing research and want to be able to communicate your arguments in a structured and convincing manner.
