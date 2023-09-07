@@ -16,11 +16,9 @@ execute:
   output: false
 ---
 
-<<<<<<< HEAD
 The final book that I managed to read during my short August break was "[L'utilità dell'inutile: Manifesto Personale](https://www.amazon.es/Lutilit%C3%A0-dellinutile-Manifesto-PasSaggi-Nuccio/dp/8830104248)" by [Nuccio Ordine](https://it.wikipedia.org/wiki/Nuccio_Ordine) ("[The Usefulness of the Useless](https://www.amazon.com/Usefulness-Useless-Nuccio-Ordine-ebook/dp/B06WRRDH1H)"). Nuccio Ordine was an Italian philosopher and thinker that sadly passed away last June. I was meaning to read something of his for some time now, and "The Usefulness of the Useless" seemed like a good place to start. I had bought the book a couple of months back, so I made sure this was one of the books I brought with me on my break, and I was not disappointed.
-=======
-The final book that I managed to read during my short August break was \"[L\'utilità dell\'inutile: Manifesto Personale](https://www.amazon.es/Lutilit%C3%A0-dellinutile-Manifesto-PasSaggi-Nuccio/dp/8830104248)\" by [Nuccio Ordine](https://it.wikipedia.org/wiki/Nuccio_Ordine) (\"[The Usefulness of the Useless](https://www.amazon.com/Usefulness-Useless-Nuccio-Ordine-ebook/dp/B06WRRDH1H)\"). Nuccio Ordine was an Italian philosopher and thinker that sadly passed away last June. I was meaning to read something of his for some time now, and \"The Usefulness of the Useless\" seemed like a good place to start. I had bought the book a couple of months back, so I made sure this was one of the books I brought with me on my break, and I was not disappointed.
->>>>>>> 66d905e4ee384c00ed2a92c63790a9446e9724ba
+
+The final book that I managed to read during my short August break was "[L'utilità dell'inutile: Manifesto Personale](https://www.amazon.es/Lutilit%C3%A0-dellinutile-Manifesto-PasSaggi-Nuccio/dp/8830104248)" by [Nuccio Ordine](https://it.wikipedia.org/wiki/Nuccio_Ordine) ("[The Usefulness of the Useless](https://www.amazon.com/Usefulness-Useless-Nuccio-Ordine-ebook/dp/B06WRRDH1H)"). Nuccio Ordine was an Italian philosopher and thinker that sadly passed away last June. I was meaning to read something of his for some time now, and "The Usefulness of the Useless" seemed like a good place to start. I had bought the book a couple of months back, so I made sure this was one of the books I brought with me on my break, and I was not disappointed.
 
 ![L'utilità dell'Inutile](/blog/blog_20230907_L'utilià_dell'inutile/img/L'utilià.jpeg){fig-alt="L'utilità dell'Inutile book cover" fig-align="center" width="800"}
 
