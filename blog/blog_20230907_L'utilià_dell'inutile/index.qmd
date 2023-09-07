@@ -1,0 +1,37 @@
+---
+title: "A Review of 'L'utilità dell'inutile: Manifesto"
+author: "João Granja-Correia"
+description: | 
+  Exploring Nuccio Ordine's 'The Usefulness of the Useless' and Its Profound Message
+date: "2023-09-07"
+categories: [Reading notes, R]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    code-fold: false
+    code-tools: false
+execute:
+  echo: false
+  output: false
+---
+
+The final book that I managed to read during my short August break was \"[L\'utilità dell\'inutile: Manifesto Personale](https://www.amazon.es/Lutilit%C3%A0-dellinutile-Manifesto-PasSaggi-Nuccio/dp/8830104248)\" by [Nuccio Ordine](https://it.wikipedia.org/wiki/Nuccio_Ordine) (\"[The Usefulness of the Useless](https://www.amazon.com/Usefulness-Useless-Nuccio-Ordine-ebook/dp/B06WRRDH1H)\"). Nuccio Ordine was an Italian philosopher and thinker that sadly passed away last June. I was meaning to read something of his for some time now, and \"The Usefulness of the Useless\" seemed like a good place to start. I had bought the book a couple of months back, so I made sure this was one of the books I brought with me on my break, and I was not disappointed.
+
+![L'utilità dell'Inutile](/blog/blog_20230907_L'utilià_dell'inutile/img/L'utilià.jpeg){fig-alt="L'utilità dell'Inutile book cover" fig-align="center" width="800"}
+
+In many ways, this book can be regarded as a personal manifesto countering several modern-world excesses, particularly the relentless emphasis on the need for efficiency and utility.
+
+In the first part of the book, Nuccio, a classicist and literature professor, eloquently champions the importance of reading the classics. He highlights the incredible font of knowledge that lies within these seemingly 'useless' classics. Nuccio's profound appreciation for these timeless works serves as a compelling reminder of their potential to enrich our lives. Through the pages of these 'useless' classics, we gain profound insights into human nature, culture, and the complexities of our world. Nuccio emphasizes that these literary treasures offer not only wisdom but also inspiration and unique perspectives that continue to shape our understanding of the human experience.
+
+This message resonates deeply with me. A few years ago, during a similar summer break, I immersed myself in both the Iliad and the Odyssey. These ancient epics are not only fascinating pieces of literature but also a gateway to connecting with the distant past and its characters. Although these works are steeped in mythology, they masterfully portray the timeless flaws and strengths of humanity. I later purchased and read abridged versions of both works to my children, hoping to instill in them a taste and appreciation for the classical world.
+
+In the second part of the book, Nuccio, who was also an educator and professor, shifts his focus to education, particularly at the university level. He argues against two trends: the treatment of students as customers and the declining interest in social sciences and liberal arts. Nuccio contends that the role of a university extends beyond producing workers with specialized skills tailored to current market demands. Instead, he asserts that universities should nurture minds and thinkers capable of engaging with the world in more profound ways.
+
+I find myself in agreement with both of his assessments. Working in a highly market-oriented university, I have witnessed firsthand the issues arising from treating students as mere customers. This approach often leads to students focusing solely on grades rather than genuine learning and skill development. Simultaneously, professors are pressured to prioritize entertaining classes over the delivery of knowledge and skill-building.
+
+My own career path has been far from straightforward, and I can relate to the concept of the usefulness of the useless. Learning to program in R, for example, was one of these seemingly inefficient, time-consuming endeavors. I initially encountered R during my master's thesis, where I used it to create graphs. Afterward, I rarely touched it until a few years ago, when I decided, of my own volition, to enroll in an R course on Coursera. Despite the course's somewhat haphazard structure, I persevered and completed all five modules. At the time, this quest seemed profoundly useless. However, the skills I acquired have proven immensely valuable, assisting me in numerous work and personal projects, including my current research. Even this very blog is constructed using R. Challenging myself to develop and address tasks in R has become a source of immense satisfaction.
+
+This is just one example of the many seemingly useless skills and knowledge I've accumulated over time, which have, at various points, proved invaluable. I firmly believe that in our journey of personal growth, both useful and seemingly useless knowledge play crucial roles.
+
+Nuccio Ordine was undoubtedly a great thinker of our time, and his passing is a significant loss. I haven't ordered the next book in line yet, but I have my eye on his work "[La cabala dell'asino: Asinità e conoscenza in Giordano Bruno](https://www.amazon.es/cabala-dellasino-Asinit%C3%A0-conoscenza-Giordano/dp/8893443562/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1694093203&sr=8-1)" ([Giordano Bruno and the Philosophy of the Ass](https://chooser.crossref.org/?doi=10.2307%2Fj.ctt2250vgr) by Nuccio Ordine). [Giordano Bruno](https://en.wikipedia.org/wiki/Giordano_Bruno), a prominent medieval philosopher who met a tragic end at the hands of the Catholic Church, was one of Nuccio Ordine's areas of expertise. I eagerly anticipate delving into this work as well.
