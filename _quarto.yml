@@ -28,7 +28,7 @@ website:
 
 format:
   html:
-    theme: [simplex, styles.scss]
+    theme: [darkly, styles_dark.scss]
     mainfont: "Atkinson Hyperlegible"
 
 
