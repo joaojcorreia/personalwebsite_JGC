@@ -4,7 +4,7 @@ author: "João Granja-Correia"
 description: | 
   My Thoughts on Porto Santo, the Island Paradise in the Madeira Archipelago
 date: "2023-10-12"
-categories: [Travel, Porto Santo]
+categories: [Traveling, Porto Santo]
 title-block-banner: false
 format: 
   html:
