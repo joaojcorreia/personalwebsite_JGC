@@ -1,0 +1,25 @@
+---
+title: "Projects"
+description: |
+  Welcome to my projects section, a window into my academic world. Here, I share my research pursuits, providing an insider's view of the projects I've worked on. Take a casual stroll through my academic journey.
+listing:
+  - id: Projects
+    max-description-length: 500
+    image-height: 150px
+    fields: [title, description, date, image]
+    contents: 
+      - "project_*/index.qmd"
+    type: default
+    grid-item-border: false
+    sort-ui: false
+    sort: "date desc"
+    filter-ui: true
+    categories: false
+
+---
+
+### My projects
+
+::: {#Projects}
+:::
+

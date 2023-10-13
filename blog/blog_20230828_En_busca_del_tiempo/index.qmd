@@ -14,6 +14,7 @@ format:
 execute:
   echo: false
   output: false
+citation: true
 ---
 
 One of my goals while studying at a Spanish institution is to improve my Spanish. Portuguese and Spanish are mutually intelligible languages, so being Portuguese, it is relatively easy to learn the basics and get by. However, developing a level of mastery that allows for natural discourse is a completely different matter. Like with any other language, that takes time and effort. You need to be exposed to the language, read, and listen.

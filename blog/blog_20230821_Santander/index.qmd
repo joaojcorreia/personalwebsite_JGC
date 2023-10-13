@@ -14,6 +14,7 @@ format:
 execute:
   echo: false
   output: false
+citation: true
 ---
 
 This post is long overdue, marking the final chapter of my trip to northern Spain. During the last leg of my journey, I had the pleasure of staying in the beautiful city of Santander. My initial reason for coming to Spain was to attend in-person classes at the Universidad de Cantabria. I seized the opportunity to enroll in a three-day course on scientific publications, an area where I aimed to enhance my skills. The course, titled "Aspectos fundamentales de preparacion de publicaciones cientificas," was highly informative and provided valuable insights into this crucial aspect of academia. Interacting with fellow colleagues and experiencing daily life on the Universidad de Cantabria campus along the "Avenida de los Castros" was both enlightening and fulfilling. I also took the time to express my gratitude to the staff at the "Escuela de Doctorado" for their unwavering support over the past months.

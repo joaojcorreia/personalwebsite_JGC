@@ -6,23 +6,18 @@ about:
   template: trestles
   image-shape: round
   links:
-    - icon: linkedin
-      text: joaojcorreia
-      href: https://www.linkedin.com/in/joaojcorreia
-    - icon: github
-      text: joaojcorreia
-      href: https://github.com/joaojcorreia
-    - icon: mastodon
-      text: '@joaogranjacorreia@fediscience.org'
-      href: https://fediscience.org/@joaogranjacorreia
+    - icon: mailbox
+      href: mailto:jgc672@alumnos.unican.es
 ---
 
 ::: {#hero-heading}
 Hello and welcome to my website!
 
-My name is João Granja-Correia and I am a **PhD candidate** at the [Universidad de Cantabria](web.unican.es), where I am researching **project management** and **agile methodologies**. Specifically, I am interested in the leadership skills that enable agile project managers to contribute to project success, and how agile itself can be defined through the lens of **paradox theory**.
+My name is João Granja-Correia and I am a **PhD candidate** at [Universidad de Cantabria](https://web.unican.es/), where my research focuses on **project management** and its connection to **project success**, with a particular interest in understanding the impact of end-user bricolage initiatives on **project success**.
 
 In addition to my research, I have been lecturing on project management at [Nova SBE](www.novasbe.unl.pt) since 2012.
 
 I am also passionate about **R and R development**, and I specialize in developing leadership skills assessment tools and personalized reporting using R and RMarkdown.
+
+I also contribute as a moderator for [SocArXiv](https://socopen.org/), supporting academic collaboration and open science.
 :::

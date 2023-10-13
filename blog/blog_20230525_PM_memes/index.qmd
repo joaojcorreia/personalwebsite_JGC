@@ -11,6 +11,7 @@ format:
     toc: true
     code-fold: false
     code-tools: false
+citation: true
 ---
 
 As a project management researcher and a PhD candidate, I am always looking for new ways to understand the challenges and frustrations that project managers face in their daily work. One of the sources that I find fascinating and insightful is the internet memes that project managers create and share online. Memes are humorous images or videos that often reflect the cultural and social aspects of a group or a situation. They can also reveal the emotions and attitudes of the people who create or consume them.

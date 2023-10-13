@@ -14,6 +14,7 @@ format:
 execute:
   echo: false
   output: false
+citation: true
 ---
 
 ![](/blog/blog_20230621_Reading_Reflections/img/Livro%20-%20Bent%20Flyvbjerg.jpg){fig-align="center" width="250"}

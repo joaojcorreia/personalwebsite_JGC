@@ -14,6 +14,7 @@ format:
 execute:
   echo: false
   output: false
+citation: true
 ---
 
 I took the week of August fifteenth off. The fifteenth is a holiday in Portugal, the day of [Our Lady of the Assumption](https://en.wikipedia.org/wiki/Assumption_of_Mary), so I always take that week off to go to the beach with the children. I usually use this week to catch up on my reading. However, with three young children, those days of burning through three or four books in a week are long gone. Nevertheless, I can't complain about this last short holiday because I was able to finish the Gregorio Luri book I mentioned in my previous post and more books. One of them was a short 120-page book, [Anthony Weston](https://en.wikipedia.org/wiki/Anthony_Weston)'s "[A Rulebook for Arguments](https://www.amazon.es/Rulebook-Arguments-Anthony-Weston/dp/162466654X/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14GIWPQCGCO1Q&keywords=a+rulebook+of+arguments&qid=1693856238&sprefix=a+rulebook+of+arguments%2Caps%2C115&sr=8-1)".

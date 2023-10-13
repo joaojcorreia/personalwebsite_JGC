@@ -1,6 +1,7 @@
 ---
 title: "On my favorite place on earth"
-author: "João Granja-Correia"
+author: 
+    name: "João Granja-Correia"
 description: | 
   My Thoughts on Porto Santo, the Island Paradise in the Madeira Archipelago
 date: "2023-10-12"
@@ -14,6 +15,7 @@ format:
 execute:
   echo: false
   output: false
+citation: true
 ---
 
 To some extent, I am a creature of habit. Every year, I take my summer holidays in early September on the same island, [Porto Santo](https://en.wikipedia.org/wiki/Porto_Santo_Island).

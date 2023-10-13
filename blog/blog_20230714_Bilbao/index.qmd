@@ -14,6 +14,7 @@ format:
 execute:
   echo: false
   output: false
+citation: true
 ---
 
 Following up on my previous adventures in Bilbao, I wanted to share the highlights of my day trip to Portugalete. On our last day in Bilbao, we decided to embark on a boat trip to explore this neighboring town. Opting for the [El Bote Tours](https://elbotebilbao.com/) service turned out to be a fantastic choice as it provided us with an excellent experience from start to finish. I highly recommend this excursion to anyone visiting Bilbao!

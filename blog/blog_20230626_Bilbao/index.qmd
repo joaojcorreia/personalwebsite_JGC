@@ -14,6 +14,7 @@ format:
 execute:
   echo: false
   output: false
+citation: true
 ---
 
 A couple of weeks ago, I traveled to Spain to attend classes at the Universidad de Cantabria in Santander. During my trip, I made sure to explore both Bilbao and Santander, and I'm thrilled to share my first blog post about the remarkable city of Bilbao, which I must say, it exceeded all expectations. From stunning architectural wonders to captivating museums, Bilbao offers a perfect blend of art, culture, and history.

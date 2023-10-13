@@ -14,6 +14,7 @@ format:
 execute:
   echo: false
   output: false
+citation: true
 ---
 
 This is my first post related to R. Currently, I am working on a project focused on analyzing the comments from a series of videos featuring "[SúperBigote](https://www.youtube.com/watch?v=muNGhgNb5vM&list=PLSWb1qzijMBsgFa1ToUCGH8dvcHdPoPiw)" from the Venezuelan National TV's, on a parritular [YouTube channel](https://www.youtube.com/@lubrio) (at a later date I will delve on the nature and origin of this channel).

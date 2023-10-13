@@ -4,9 +4,10 @@ project:
 
 website:
   page-navigation: true
-  title: "Hello I'm João"
+  title: "João Granja-Correia"
   site-url: https://joao.granja-correia.eu
   repo-url: https://github.com/joaojcorreia/joaojcorreia.github.io
+  search: true
 
   page-footer:
     left: "&copy; Copyright 2023, João Granja-Correia"
@@ -17,7 +18,7 @@ website:
       - href: index.qmd
         text: Home
 
-      - href: projects/index.qmd
+      - href: projects/projects.qmd
         text: Projects
         
       - href: blog/blog.qmd
@@ -25,6 +26,17 @@ website:
 
       - href: about.qmd
         text: About
+      
+    right:
+      - icon: mastodon
+        href: https://fediscience.org/@joaogranjacorreia
+      - icon: github
+        href: https://github.com/joaojcorreia
+      - icon: linkedin
+        href: https://www.linkedin.com/in/joaojcorreia
+      - text: "{{< iconify fa6-brands orcid >}}"
+        href: https://orcid.org/0009-0003-8982-278X
+
 
 format:
   html:
