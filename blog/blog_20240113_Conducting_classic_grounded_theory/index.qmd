@@ -1,0 +1,38 @@
+---
+title: "A Review of 'Conducting classic grounded theory'"
+author: 
+    name: "João Granja-Correia"
+description: | 
+  Exploring 'Conducting classic grounded theory': A candid review of one of the Master Business Research Methods series book
+date: "2024-01-13"
+categories: [Reading note]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    code-fold: false
+    code-tools: false
+execute:
+  echo: false
+  output: false
+citation: true
+bibliography: references.bib
+---
+
+Returning for a blog post after a long break. Life isn’t as simple as one wishes and foresees. Juggling three kids, a PhD, and work constitutes literally three full-time jobs. Finding both the time and the right mindset to write, something I genuinely enjoy, is not always straightforward.
+
+One of the books I read during my summer break in early September was “[Conducting classic grounded theory](https://www.amazon.es/Conducting-Grounded-Business-Management-Mastering/dp/1526460084/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=36KAB0Y4QE4KC&keywords=Conducting+classic+grounded+theory&qid=1705177761&sprefix=conducting+classic+grounded+theory%2Caps%2C272&sr=8-1)” by Isabelle Walsh, Judith A. Holton, and Gaetan Mourmant. This book is part of [Sage](https://uk.sagepub.com/en-gb/eur/home)’s [Mastering Business Research Methods](https://uk.sagepub.com/en-gb/eur/mbrm) series.
+
+![Conducting Classic Grounded Theory](img/20230908_095128.jpg){fig-alt="Conducting Classic Grounded Theory" fig-align="center" width="800"}
+
+I have several other books in this series, which I have found to be very well-structured and insightful. These books have genuinely helped me develop some of my quantitative skills. Considering this, I had high expectations for this particular book as well. I purchased it because my PhD project will involve using qualitative methods, and grounded theory is a well-structured approach to qualitative research. Therefore, I felt that this book was a good starting point to guide my research approach.
+
+I must confess that diving into this book was a bit of a challenge. I found myself circling back to certain sections, making sure I truly wrapped my head around the whole grounded theory concept. However, I want to emphasize that this is not solely the book's fault. My background in engineering has instilled in me a strong quantitative mindset and a tendency to approach problem-solving in a linear, step-by-step manner. These approaches are somewhat at odds with the inductive, iterative, and emergent nature of grounded theory. In this way, I believe the book has been useful in helping me identify my own approach and expectations shortcomings.
+
+While the book provides three illustrative examples of grounded theory research, its structure and information presentation, particularly in the initial chapters, including Chapter 2 titled "Understanding Grounded Theory," may pose challenges for novice readers seeking to fully grasp and benefit from the text.
+
+Having said this, here's my first conclusion and recommendation: If you haven't yet gained knowledge of the basics of qualitative methods and grounded theory, I recommend you delve into the subject further before embarking on this book. Trust me, it will both enhance your reading experience and enable you to extract more profound insights from the book, allowing you to more readily apply its concepts to your research endeavors.
+
+A great way to gain initial exposure to grounded theory is to watch [Professor Davide Ravasi](https://scholar.google.com/citations?user=P4qHxikAAAAJ)'s lecture on "[The Gioia Methodology](https://www.youtube.com/watch?v=YIeo65NgIvY&list=PLbJ0geV0NuEhYhb9ZVB_iqx3DLSJQZUDn&index=1)" on the [New Scholars](https://www.youtube.com/@NewScholars) YouTube channel. During the last decade, the Gioia methodology has emerged as the most widely adopted form of grounded theory, and Professor Ravasi's lecture provides a comprehensive overview of the methodology, including examples of how he has applied it in his own research. Additionally, I would highly recommend reading "[Seeking Qualitative Rigor in Inductive Research: Notes on the Gioia Methodology](https://journals.sagepub.com/doi/10.1177/1094428112452151)"[@gioia2013], where [Professor Gioia](https://scholar.google.com/citations?hl=en&user=bjYIwrIAAAAJ) himself elaborates on the strengths of his approach and its practical application.
+
+To conclude, the book serves as a valuable resource for those embarking on grounded theory research. Its structured approach provides a clear understanding of the methodology's principles and processes. However, it could benefit from additional context and information in the initial chapters to cater to novice readers. Nevertheless, once this initial barrier is overcome, the book effectively guides readers in applying grounded theory to their research projects. Overall, I recommend reading the book, emphasizing the caveat that some prior exposure to qualitative methodologies and grounded theory is beneficial for maximizing its effectiveness.

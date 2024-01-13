@@ -1,5 +1,5 @@
 ---
-title: "A Review of 'The Art of Statisitics: Learning from data"
+title: "A Review of 'The Art of Statisitics: Learning from data'"
 author: 
     name: "João Granja-Correia"
 description: | 
