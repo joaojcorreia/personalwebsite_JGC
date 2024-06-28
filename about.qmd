@@ -10,30 +10,24 @@ about:
     - icon: mailbox
       text: jgc672@alumnos.unican.es
       href: mailto:jgc672@alumnos.unican.es
-    # - icon: ai ai-orcid
-    #   text: 0009-0003-8982-278X
-    #   href: https://orcid.org/0009-0003-8982-278X
 ---
 
-
 ::: {#hero-heading}
-
 :::
 
 I'm currently a PhD candidate at [Universidad de Cantabria](https://web.unican.es/), where my research focuses on **project management** and its connection to **project success**, with a particular interest in understanding the impact of end-user bricolage initiatives on **project success**.
 
-In addition to my research, I've been sharing my knowledge by lecturing on project management at [Nova SBE](https://www.novasbe.unl.pt/en/) since 2012. I'm also actively involved in the school's digital transformation initiatives.
+In addition to my research, I've been sharing my knowledge by lecturing on project management at [Nova SBE](https://www.novasbe.unl.pt/en/) since 2012.
 
-Beyond academia, I have a strong interest in **R** and **R development**, specializing in creating leadership skills assessment tools and personalized reports. I also contribute as a moderator for [SocArXiv](https://socopen.org/), supporting academic collaboration and open science.
+Beyond academia, I have a strong interest in **R** and **R development**, specializing in creating leadership skills assessment tools and personalized reports. I also contribute as a moderator for [SocArXiv](https://socopen.org/).
 
-My research **interests** include:
+My **interests** include:
+* Project management and project success
+* Predictive and agile project management methodologies
+* Survey-based quantitative empirical research
+* Reproducible automatic data analysis and reporting with R
 
-- Project management and project success
-- Predictive and agile project management methodologies
-- Survey-based quantitative empirical research
-- Reproducible automatic data analysis and reporting with R
+Outside of work, my time is mostly occupied by my three wonderful children, who keep me on my toes and bring joy to my life. I love spending time outdoors, and during the summer you can often find me at the beach, enjoying the sun, sea, and a good book. I am fluent in English, Portuguese, Italian, and Spanish, and I've been trying to learn Hebrew for the past few years, although progress has been slow.
 
-Outside of work, my time is mostly occupied by my three wonderful children, who keep me on my toes and bring joy to my life. I love spending time outdoors, and during the summer, you can often find me at the beach, enjoying the sun, sea, and a good book. I am fluent in English, Portuguese, Italian, and Spanish, and I've been making an effort to learn Hebrew for the past few years, though progress has been slow.
 
-Follow me on <a rel="me" href="https://fediscience.org/@joaogranjacorreia">Mastodon</a>.
 

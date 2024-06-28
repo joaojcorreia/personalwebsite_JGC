@@ -10,7 +10,7 @@ website:
   search: true
 
   page-footer:
-    left: "&copy; Copyright 2023, João Granja-Correia"
+    left: "&copy; Copyright 2024, João Granja-Correia"
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
 
   navbar:
