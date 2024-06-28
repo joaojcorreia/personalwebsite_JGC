@@ -1,0 +1,67 @@
+---
+title: "Murcia and the G9 XI Doctoral Congress: A Memorable Experience"
+author: 
+    name: "João Granja-Correia"
+description: | 
+  Sharing my experiences and insights from the G9 XI Doctoral Congress in Murcia, exploring both the academic sessions and the vibrant city.
+date: "2024-06-28"
+categories: [Spain, Traveling, Congress]
+title-block-banner: false
+format: 
+  html:
+    toc: true
+    code-fold: false
+    code-tools: false
+execute:
+  echo: false
+  output: false
+citation: true
+#bibliography: references.bib
+---
+
+Again, returning to posting after a long break… I always plan to post something, but it keeps getting postponed. Life gets in the way, work gets in the way, and the PhD gets in the way. I must find a way to keep a stricter schedule, at least posting once per month. I really enjoy writing these posts, as they are a way to practice my writing and help me find my writing voice.
+
+After this short detour, let's focus on the matter at hand: my participation in the last couple of weeks in two congresses, the G9 XI Doctoral Congress in Murcia and the XXXIII ACEDE International Congress in Valencia. I will divide this into two posts, discussing the congresses and the cities where they took place.
+
+## G9 XI Doctoral Congress in Murcia
+
+A few months ago, Cantabria’s Doctoral School announced that we could apply to represent the university at the [G9 XI Doctoral Congress](https://uni-g9.net/xi-jornadas-doctorales-vi-jornadas-de-divulgacion-cientifica-g-9-umu) in [Murcia](https://en.wikipedia.org/wiki/Murcia). To apply, we needed to prepare a poster, and the two best posters from each doctoral area would be selected to represent the school at the congress. My Figueira Gorda project was at a stage where I could prepare a poster, so I decided to give it a go. I was thrilled to be selected to represent the University of Cantabria. You can check out my poster [here](https://zenodo.org/doi/10.5281/zenodo.11001219).
+
+![G9 XI Doctoral Congress in Murcia](img/g9_banner2.jpg){fig-alt="G9 XI Doctoral Congress in Murcia banner" fig-align="center"}
+
+The [G9 consortium](https://uni-g9.net/index) is a group of public Spanish universities that are the sole public universities in their respective regions. Although the [University of Murcia](https://www.um.es/) does not meet this criterion, as the region also includes the [Polytechnic University of Cartagena](https://www.upct.es/), it became an associate member in 2023. The goal of the consortium is to support each other and help develop research and faculty across member institutions. I had attended a few online courses offered by the consortium in the past, which exposed me to faculty from other Spanish universities.
+
+It was a truly enjoyable experience. Although it was a multi-theme congress, all of social sciences were grouped together in the same session, so each of us had a very short time slot to present our work, preventing us from delving into the details of our research. It was still fascinating to be exposed to different research fields and methodologies. It was enlightening to see what other doctoral students are doing and how they are approaching their studies.
+
+One of the main takeaways for me was getting to know and interact with my doctoral colleagues from the University of Cantabria. Not being there physically means I often miss out on this. I don’t get to know my colleagues or understand the dynamics of the school. I don’t get to discuss research projects from completely different fields, learn about them, exchange ideas, and even identify potential collaborations. During the three days we were together, I experienced a condensed version of this interaction. I was very positively surprised by my colleagues from Cantabria. Even though we didn’t know each other beforehand (which was true for most of them as well), we immediately developed a sense of chemistry and camaraderie, and we all supported each other during the congress.
+
+![University of Murcia campus](img/campus_murcia_1.jpg){fig-alt="View of the University of Murcia campus 1"}
+
+![University of Murcia campus](img/campus_murcia_2.jpg){fig-alt="View of the University of Murcia campus 2"}
+
+Additionally, I was really impressed with the Universidad de Murcia campus. Established in 1272 by [King Alfonso X of Castille](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile), [Universidad de Murcia](https://en.wikipedia.org/wiki/University_of_Murcia) is the third oldest in Spain and the thirteenth oldest in the world. Despite its historical roots, the university boasts a state-of-the-art campus. Located to the north of the city and served by a tram line with several stops that circulate the campus, it features a quarter filled with modern buildings that house most of the university’s schools. Due to a flight mismatch, I arrived a day earlier and had a morning to spare before the congress started. I took the opportunity to visit the campus and work in the central library. This huge multi-story building is very well designed, with a large central atrium that lets in natural light, ensuring that students have ample natural illumination while studying.
+
+::: columns
+::: {.column width="35%"}
+::: {style="text-align: center;"}
+![Santa Maria's Cathedral Bell Tower](img/20240611_234810.jpg)
+:::
+:::
+
+::: {.column width="2.5%"}
+:::
+
+::: {.column width="62.5%"}
+::: {style="text-align: center;"}
+![Santo Domingo Ficus](img/ficus_murcia.jpg)
+:::
+:::
+:::
+
+The city itself is relatively small, with spacious neighborhoods and large green spaces, and is crossed by a major avenue that also hosts the tram line, making it very convenient to move around. The city’s greenery contrasts with the surrounding dry, semi-desert environment. The historical part of the city center is relatively small, as part of the historical quarter was demolished in the 1950s for the construction of [Gran Via Escultor Francisco Salzillo](https://es.wikipedia.org/wiki/Gran_V%C3%ADa_Escultor_Francisco_Salzillo). This restructuring, aimed at modernizing the city and creating a main artery to facilitate traffic flow, amputated part of the old quarter. The contrasts and inconsistencies are still visible today, with 1960s buildings sitting next to XVII and XVIII century ones. However, what remains of the city center is impressive. The yellow sandstone buildings highlight the tones of the local sun, creating a striking combination. Although I didn’t have as much time to explore the city as I would have liked, I was struck by the beauty of the buildings in the old city. For me, the highlight of the congress was the literary tour of the old town, guided by [Paco López Mengual](https://es.wikipedia.org/wiki/Paco_L%C3%B3pez_Mengual), a grocer and published author. His talented storytelling brought the buildings to life and truly connected us to the city. I am looking forward to reading a couple of his books. I was particularly impressed by the story of [Santo Domingo’s Ficus](https://es.wikipedia.org/wiki/Plaza_de_Santo_Domingo_(Murcia)), a massive [Ficus macrophylla](https://en.wikipedia.org/wiki/Ficus_macrophylla) tree that sits in the central city square. This tree, a beloved symbol of the city, clings to life in the harsh summer Murcian climate. You can learn more about the tree by reading [this article](https://www.rcmagazine.es/el-ficus-de-santo-domingo/) by Paco López Mengual himself.
+
+![Murcia city center](img/murcia_center.jpg){fig-alt="Murcia city center" fig-align="center"}
+
+The congress keynote talks were also interesting and addressed current and relevant issues like the usage of AI in academia and the importance of scientific communication in today’s post-truth, social media-driven world.
+
+Overall, it was a great and enriching experience, and I might apply to the congress again next year. Until then, I will keep my eyes open for more activities promoted by the G9 consortium.

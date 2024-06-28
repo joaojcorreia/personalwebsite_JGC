@@ -2,16 +2,27 @@
   {
     "listing": "/blog/blog.html",
     "items": [
-<<<<<<< HEAD
+      "/blog/blog_20240628_Murcia_G9/index.html",
+      "/blog/blog_20240113_Conducting_classic_grounded_theory/index.html",
+      "/blog/blog_20231102_The_Art_of_Satitistics/index.html",
+      "/blog/blog_20231012_My_favorite_place_on_earth/index.html",
+      "/blog/blog_20230907_L'utilià_dell'inutile/index.html",
+      "/blog/blog_20230904_Rulebook_for_arguments/index.html",
+      "/blog/blog_20230828_En_busca_del_tiempo/index.html",
+      "/blog/blog_20230821_Santander/index.html",
       "/blog/blog_20230714_Bilbao/index.html",
-=======
->>>>>>> 89cf5a39672e5535c3d27e23721b6df525b133c8
       "/blog/blog_20230626_Bilbao/index.html",
       "/blog/blog_20230621_Reading_Reflections/index.html",
       "/blog/blog_20230603_Tuber/index.html",
       "/blog/blog_20230525_PM_memes/index.html",
       "/blog/blog_20230515_Activity2/index.html",
       "/blog/blog_20230513_Activity1/index.html"
+    ]
+  },
+  {
+    "listing": "/projects/projects.html",
+    "items": [
+      "/projects/project_20231013_Infra_CV/index.html"
     ]
   }
 ]
