@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A place to store learnings and thoughts on my research, readings and R development">
+<meta name="author" content="João Granja-Correia">
+<meta name="dcterms.date" content="2024-07-03">
+<meta name="description" content="A step-by-step guide to extracting and formatting bibliometric data from WOS and Scopus for analysis with the bibliometrix package in R.">
 
-<title>Blog and notes – João Granja-Correia</title>
+<title>Navigating Bibliometric Data Extraction from WOS and Scopus – João Granja-Correia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
-<script src="../site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,65 +70,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -139,7 +81,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">João Granja-Correia</span>
     </a>
   </div>
@@ -150,19 +92,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/projects.html"> 
+    <a class="nav-link" href="../../projects/projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog/blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -198,26 +140,52 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(16)</span></div><div class="category" data-category="BibTex">BibTex <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Bibliometric">Bibliometric <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Congress">Congress <span class="quarto-category-count">(1)</span></div><div class="category" data-category="CourseWork">CourseWork <span class="quarto-category-count">(2)</span></div><div class="category" data-category="PM">PM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Porto Santo">Porto Santo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Reading note">Reading note <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Reading notes">Reading notes <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Scopus">Scopus <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Social Sciences">Social Sciences <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Spain">Spain <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Traveling">Traveling <span class="quarto-category-count">(5)</span></div><div class="category" data-category="WOS">WOS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Youtube">Youtube <span class="quarto-category-count">(1)</span></div><div class="category" data-category="meme">meme <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tuber">tuber <span class="quarto-category-count">(1)</span></div><div class="category" data-category="webscraping">webscraping <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#scopus" id="toc-scopus" class="nav-link active" data-scroll-target="#scopus">Scopus</a></li>
+  <li><a href="#web-of-science" id="toc-web-of-science" class="nav-link" data-scroll-target="#web-of-science">Web of Science</a></li>
+  <li><a href="#note-on-the-bibtex-files" id="toc-note-on-the-bibtex-files" class="nav-link" data-scroll-target="#note-on-the-bibtex-files">Note on the BibTex files</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Blog and notes</h1>
-</div>
+<h1 class="title">Navigating Bibliometric Data Extraction from WOS and Scopus</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Bibliometric</div>
+    <div class="quarto-category">Scopus</div>
+    <div class="quarto-category">WOS</div>
+    <div class="quarto-category">BibTex</div>
+  </div>
+  </div>
 
 <div>
   <div class="description">
-    <p>A place to store learnings and thoughts on my research, readings and R development</p>
+    <p>A step-by-step guide to extracting and formatting bibliometric data from WOS and Scopus for analysis with the bibliometrix package in R.</p>
   </div>
 </div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>João Granja-Correia </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 3, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -227,161 +195,102 @@ window.Quarto = {
 </header>
 
 
-<section id="blog" class="level3">
-<h3 class="anchored" data-anchor-id="blog">Blog</h3>
-<div id="listing-blog" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="Bibliometric,Scopus,WOS,BibTex" data-listing-date-sort="1719961200000" data-listing-file-modified-sort="1719959229458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="972" data-listing-title-sort="Navigating Bibliometric Data Extraction from WOS and Scopus" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20240701_bibliometric_data/index.html" class="title listing-title">Navigating Bibliometric Data Extraction from WOS and Scopus</a>
-</td>
-<td>
-<span class="listing-date">Jul 3, 2024</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="Spain,Traveling,Congress" data-listing-date-sort="1719529200000" data-listing-file-modified-sort="1719569191683" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1042" data-listing-title-sort="Murcia and the G9 XI Doctoral Congress: A Memorable Experience" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20240628_Murcia_G9/index.html" class="title listing-title">Murcia and the G9 XI Doctoral Congress: A Memorable Experience</a>
-</td>
-<td>
-<span class="listing-date">Jun 28, 2024</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="Reading note" data-listing-date-sort="1705104000000" data-listing-file-modified-sort="1705178347657" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="578" data-listing-title-sort="A Review of 'Conducting classic grounded theory'" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20240113_Conducting_classic_grounded_theory/index.html" class="title listing-title">A Review of ‘Conducting classic grounded theory’</a>
-</td>
-<td>
-<span class="listing-date">Jan 13, 2024</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="Reading note" data-listing-date-sort="1698883200000" data-listing-file-modified-sort="1705177373503" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="677" data-listing-title-sort="A Review of 'The Art of Statisitics: Learning from data'" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20231102_The_Art_of_Satitistics/index.html" class="title listing-title">A Review of ‘The Art of Statisitics: Learning from data’</a>
-</td>
-<td>
-<span class="listing-date">Nov 2, 2023</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="Traveling,Porto Santo" data-listing-date-sort="1697065200000" data-listing-file-modified-sort="1697233354223" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="486" data-listing-title-sort="On my favorite place on earth" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20231012_My_favorite_place_on_earth/index.html" class="title listing-title">On my favorite place on earth</a>
-</td>
-<td>
-<span class="listing-date">Oct 12, 2023</span>
-</td>
-</tr>
-<tr data-index="5" data-categories="Reading notes,R" data-listing-date-sort="1694041200000" data-listing-file-modified-sort="1697233410655" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="736" data-listing-title-sort="A Review of 'L'utilità dell'inutile: Manifesto'" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230907_L'utilià_dell'inutile/index.html" class="title listing-title">A Review of ‘L’utilità dell’inutile: Manifesto’</a>
-</td>
-<td>
-<span class="listing-date">Sep 7, 2023</span>
-</td>
-</tr>
-<tr data-index="6" data-categories="Reading notes" data-listing-date-sort="1693782000000" data-listing-file-modified-sort="1697233458096" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="463" data-listing-title-sort="A Review of 'A Rulebook for Arguments'" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230904_Rulebook_for_arguments/index.html" class="title listing-title">A Review of ‘A Rulebook for Arguments’</a>
-</td>
-<td>
-<span class="listing-date">Sep 4, 2023</span>
-</td>
-</tr>
-<tr data-index="7" data-categories="Reading notes" data-listing-date-sort="1693177200000" data-listing-file-modified-sort="1697233472904" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="568" data-listing-title-sort="A Review of 'En busca del tiempo de que vivimos'" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230828_En_busca_del_tiempo/index.html" class="title listing-title">A Review of ‘En busca del tiempo de que vivimos’</a>
-</td>
-<td>
-<span class="listing-date">Aug 28, 2023</span>
-</td>
-</tr>
-<tr data-index="8" data-categories="Traveling,Spain" data-listing-date-sort="1692572400000" data-listing-file-modified-sort="1697233486382" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="663" data-listing-title-sort="Four days in Santander" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230821_Santander/index.html" class="title listing-title">Four days in Santander</a>
-</td>
-<td>
-<span class="listing-date">Aug 21, 2023</span>
-</td>
-</tr>
-<tr data-index="9" data-categories="Traveling,Spain" data-listing-date-sort="1689289200000" data-listing-file-modified-sort="1697233503025" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="723" data-listing-title-sort="Day trip to Portugalete" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230714_Bilbao/index.html" class="title listing-title">Day trip to Portugalete</a>
-</td>
-<td>
-<span class="listing-date">Jul 14, 2023</span>
-</td>
-</tr>
-<tr data-index="10" data-categories="Traveling,Spain" data-listing-date-sort="1687734000000" data-listing-file-modified-sort="1697233520262" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="771" data-listing-title-sort="Three days enjoying Bilbao" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230626_Bilbao/index.html" class="title listing-title">Three days enjoying Bilbao</a>
-</td>
-<td>
-<span class="listing-date">Jun 26, 2023</span>
-</td>
-</tr>
-<tr data-index="11" data-categories="Reading notes,Social Sciences" data-listing-date-sort="1687302000000" data-listing-file-modified-sort="1697233531605" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="518" data-listing-title-sort="Reflections on Bent Flyvbjerg's 'Making Social Science Matter'" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230621_Reading_Reflections/index.html" class="title listing-title">Reflections on Bent Flyvbjerg’s ‘Making Social Science Matter’</a>
-</td>
-<td>
-<span class="listing-date">Jun 21, 2023</span>
-</td>
-</tr>
-<tr data-index="12" data-categories="R,tuber,Youtube,webscraping" data-listing-date-sort="1685919600000" data-listing-file-modified-sort="1697233545029" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="642" data-listing-title-sort="Tuber - connecting R to Youtube API" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230603_Tuber/index.html" class="title listing-title">Tuber - connecting R to Youtube API</a>
-</td>
-<td>
-<span class="listing-date">Jun 5, 2023</span>
-</td>
-</tr>
-<tr data-index="13" data-categories="PM,meme" data-listing-date-sort="1684969200000" data-listing-file-modified-sort="1697233558356" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="234" data-listing-title-sort="Collecting project management memes" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230525_PM_memes/index.html" class="title listing-title">Collecting project management memes</a>
-</td>
-<td>
-<span class="listing-date">May 25, 2023</span>
-</td>
-</tr>
-<tr data-index="14" data-categories="CourseWork" data-listing-date-sort="1684105200000" data-listing-file-modified-sort="1684222038044" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="562" data-listing-title-sort="Writing your PhD thesis in Humanities - Activity 2" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230515_Activity2/index.html" class="title listing-title">Writing your PhD thesis in Humanities - Activity 2</a>
-</td>
-<td>
-<span class="listing-date">May 15, 2023</span>
-</td>
-</tr>
-<tr data-index="15" data-categories="CourseWork" data-listing-date-sort="1683932400000" data-listing-file-modified-sort="1684222038041" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="701" data-listing-title-sort="Writing your PhD thesis in Humanities - Activity 1" data-listing-filename-sort="index.qmd">
-<td>
-<a href="../blog/blog_20230513_Activity1/index.html" class="title listing-title">Writing your PhD thesis in Humanities - Activity 1</a>
-</td>
-<td>
-<span class="listing-date">May 13, 2023</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
+<p>One of the studies I am developing is a <a href="https://en.wikipedia.org/wiki/Bibliometrics">bibliometric</a> study on the evolution of the terms “project success” and “project performance” in academic literature. Bibliometric studies allow for the quantitative analysis of academic publications, enabling researchers to identify trends, patterns, and the impact of specific terms over time. This approach helps to uncover the most influential works, key authors, and prominent journals in the field, providing a comprehensive overview of the academic discourse surrounding critical concepts, and areas of research. It is a type of research, that you perform when you want to get an over-view of a research area and identify research gaps.</p>
+<p>However, as with most research, one of the main hurdles to overcome is obtaining the data. In bibliometric studies, unlike empirical studies, the required data can be sourced from high-quality bibliographic databases such as <a href="https://www.webofscience.com/wos/">Web of Science</a> or <a href="www.scopus.com">Scopus</a>. To access these databases, you first need a premium account, which is typically available through most academic institutions. Once you have access to the paid versions of these websites, finding and downloading the data in the correct format can still be challenging. Having spent a significant amount of time figuring out how to do this, I want to save you, the reader, this effort. The goal of this post is to provide you with a concise guide on how to download bibliometric data correctly and efficiently.</p>
+<p>Firstly, to conduct a bibliometric analysis, you not only need a list of the articles relevant to your research area, but you also need the list of articles each one of them cites. This is essential for building co-citation networks, and other types of analysis, and it has to be in a format that your bibliometric analysis software can use. In my case, I’ll be using the <a href="https://www.bibliometrix.org/home/">bibliometrix</a> package in R, so I need the references in <a href="https://en.wikipedia.org/wiki/BibTeX">BibTeX</a> format. A regular reference export from the platforms won’t cut it because the citation reference lists can get very large and complex. You’ll need to navigate the menus carefully to get everything in the right format.</p>
+<p><em>Note: This tutorial assumes that you have a premium account for the platforms in question</em></p>
+<section id="scopus" class="level1">
+<h1>Scopus</h1>
+<p>Once you enter Scopus and perform your search, you will be greeted with the new search menu, as shown below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/scopus_1.png" class="img-fluid figure-img"></p>
+<figcaption>Export in new Scopus’ new search menu</figcaption>
+</figure>
 </div>
+<p>Here’s where it can get confusing: it appears that you can export the results to BibTeX without any issues.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/scopus_2.png" class="img-fluid figure-img"></p>
+<figcaption>Export options in new search menu</figcaption>
+</figure>
 </div>
-
+<p>Here’s the improved version:</p>
+<p>Once you press export, you are taken to a menu where you can select what you want to export. It even has an option to “Include references.” You might think you can export all the references in one go. However, after exporting and opening the BibTeX file, you’ll notice that the reference field isn’t there. I don’t know if this is an error with the new interface or if it’s by design (though I haven’t figured out what the “references” option can refer to). The end result is that the exported file doesn’t contain the references you need. You search online and can’t find an answer, and Scopus tutorials don’t help. So, you end up wasting hours trying to figure it out. I’m here to spare you that trouble.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/scopus_3.png" class="img-fluid figure-img"></p>
+<figcaption>How to go to old search menu</figcaption>
+</figure>
+</div>
+<p>So what you need to do is navigate to the old search menu, which isn’t at all intuitive. First you need to press “See what is new”, and then “Retun to original version”.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/scopus_4.png" class="img-fluid figure-img"></p>
+<figcaption>The option you want to see</figcaption>
+</figure>
+</div>
+<p>Once you do that, you will have the “BibTex export” option, that opens a different export menu.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/scopus_5.png" class="img-fluid figure-img"></p>
+<figcaption>The right export menu</figcaption>
+</figure>
+</div>
+<p>When exporting entries with references, in Scopus, you’re limited to 2000 entries at a time. I recommend filtering your list by publication year, creating bundles of years that each have fewer than 2000 entries. Once you’ve exported the BibTeX files, you can combine them into a single file by opening them in a text editor and copying and pasting the content at the end of the main file. The order doesn’t matter, as BibTeX includes a field for the publication date. Once you have a single file, you can start analyzing it in your software of choice.</p>
+</section>
+<section id="web-of-science" class="level1">
+<h1>Web of Science</h1>
+<p>The issue with Web of Science (WOS) is slightly different. Only the <em>WOS Core Collection</em> includes references. If you use the default option, <em>All Databases</em>, you won’t even see the option for BibTeX and reference export. It can take a while to figure out why this is the case. So you need to go with the <em>Wos Core Collection</em> from the start.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/wos_1.png" class="img-fluid figure-img"></p>
+<figcaption>Pick just the Web of Science Core Collection</figcaption>
+</figure>
+</div>
+<p>After that, it is relatively intuitive. You need to select export, and them go with the BibTex format.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/wos_2.png" class="img-fluid figure-img"></p>
+<figcaption>Select Export -&gt; Bibtex</figcaption>
+</figure>
+</div>
+<p>With reference information, you can only export 1000 records at a time. I recommend exporting in batches of 1000, ensuring you keep track of where you are. Otherwise, you might end up having to re-export everything or, worse, miss some records without realizing it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/wos_3.png" class="img-fluid figure-img"></p>
+<figcaption>You can export only 1000 records at a time</figcaption>
+</figure>
+</div>
+<p>Don’t forget to select the <em>Cited References and Use</em> option, as this is the key feature we need.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/wos_4.png" class="img-fluid figure-img"></p>
+<figcaption>Select Cited References and Use</figcaption>
+</figure>
+</div>
+<p>Again, once you have all the BibTex files, you can just combine them by copying and pasting them into one big file.</p>
+</section>
+<section id="note-on-the-bibtex-files" class="level1">
+<h1>Note on the BibTex files</h1>
+<p>Once you combine all the BibTeX files into one, you will end up with a relatively large file that can be a few hundred megabytes in size. Do not combine the files from Scopus with those from WOS into one file, as they have slightly different formats. If you plan to use bibliometrix for analysis, you will need to import them separately. Once they are imported, you can merge them and remove duplicates.</p>
+<p>As I progress with my analysis, I will soon make a more detailed post on how to use bibliometrix.</p>
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{granja-correia2024,
+  author = {Granja-Correia, João},
+  title = {Navigating {Bibliometric} {Data} {Extraction} from {WOS} and
+    {Scopus}},
+  date = {2024-07-03},
+  url = {https://joao.granja-correia.eu/blog/blog_20240701_bibliometric_data/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-granja-correia2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Granja-Correia, João. 2024. <span>“Navigating Bibliometric Data
+Extraction from WOS and Scopus.”</span> July 3, 2024. <a href="https://joao.granja-correia.eu/blog/blog_20240701_bibliometric_data/">https://joao.granja-correia.eu/blog/blog_20240701_bibliometric_data/</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
